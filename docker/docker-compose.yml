@@ -3,7 +3,7 @@ version: "2"
 services:
   php:
     container_name: openloyalty_backend
-    image: openloyalty/open-loyalty-fpm
+    image: divante/open-loyalty-fpm
     links:
       - db
       - elk
@@ -14,7 +14,7 @@ services:
         - .env
   nginx:
     container_name: openloyalty_frontend
-    image: openloyalty/open-loyalty-web
+    image: divante/open-loyalty-web
     links:
       - php
     ports:
@@ -24,7 +24,7 @@ services:
       - "8184:3003"
   elk:
     container_name: openloyalty_elk
-    image: openloyalty/open-loyalty-elasticsearch:2.2.0
+    image: divante/open-loyalty-elasticsearch:2.2.0
   db:
     container_name: openloyalty_db
     image: postgres:9

@@ -14,7 +14,7 @@ services:
       - "9000:9000"
     volumes:
         - '../backend:/var/www/openloyalty'
-    command: phing setup
+    # command: phing setup
     env_file:
         - .env
   nginx:

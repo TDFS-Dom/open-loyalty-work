@@ -73,3 +73,20 @@ After starting Open Loyalty in developer mode, it exposes services under slightl
  * http://10.10.10.22:8081/pos - the merchant panel,
  * http://10.10.10.22:8888 - RESTful API port
  * http://10.10.10.22:8888/app_dev.php/doc - swagger-like API doc
+
+Account admin:
+```
+admin
+```
+Account customer:
+```
+user@oloy.com
+```
+Account seller:
+```
+user@oloy.com
+```
+Password for all: 
+```
+open
+```

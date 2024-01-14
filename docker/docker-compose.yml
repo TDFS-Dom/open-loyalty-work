@@ -6,6 +6,7 @@ services:
     build:
       context: '../'
       dockerfile: './docker/dev/php/fpm-dockerfile'
+    restart: always
     links:
       - db
       - elk
@@ -22,6 +23,7 @@ services:
     build:
       context: '../'
       dockerfile: './docker/dev/web/backend-dockerfile'
+    restart: always
     links:
       - php
     ports:
@@ -31,6 +33,7 @@ services:
     build:
       context: '../'
       dockerfile: './docker/dev/web/front-dockerfile'
+    restart: always
     ports:
       - "8081:8081"
     volumes:
@@ -41,6 +44,7 @@ services:
     build:
       context: '../'
       dockerfile: './docker/base/elasticsearch-dockerfile'
+    restart: always
     ports:
       - "9200:9200"
   db:
@@ -48,10 +52,12 @@ services:
     image: postgres:9
     ports:
       - "5432:5432"
+    restart: always
     env_file:
         - .env
   mail:
     container_name: open_loyalty_mail
     image: mailhog/mailhog
+    restart: always
     ports:
       - "8186:8025"

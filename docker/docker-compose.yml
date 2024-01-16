@@ -47,13 +47,14 @@ services:
     restart: always
     volumes:
       - ./dev/elk/data/:/usr/share/elasticsearch/data/
-      - ./dev/elk/config/:/usr/share/elasticsearch/config/
       - ./dev/elk/plugins/:/usr/share/elasticsearch/plugins/
     ports:
       - "9200:9200"
   db:
     container_name: open_loyalty_db
     image: postgres:9
+    volumes:
+      - ./dev/postgres/data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
     restart: always

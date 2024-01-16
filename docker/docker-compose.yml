@@ -46,9 +46,9 @@ services:
       dockerfile: './docker/base/elasticsearch-dockerfile'
     restart: always
     volumes:
-      - ./dev/elk/data:/usr/share/elasticsearch/data
-      - ./dev/elk/config:/usr/share/elasticsearch/config
-      - ./dev/elk/plugins:/usr/share/elasticsearch/plugins
+      - ./dev/elk/data/:/usr/share/elasticsearch/data/
+      - ./dev/elk/config/:/usr/share/elasticsearch/config/
+      - ./dev/elk/plugins/:/usr/share/elasticsearch/plugins/
     ports:
       - "9200:9200"
   db:

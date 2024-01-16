@@ -1,0 +1,2594 @@
+{
+  "admin": {
+    "change_password": {
+      "current": "Hiện tại mật khẩu",
+      "do_not_match": "Mật khẩu không phù hợp",
+      "new_first": "Mật khẩu mới",
+      "new_second": "Lặp lại mật khẩu mới"
+    },
+    "dashboard": {
+      "daily_registrations": "Thành viên mới",
+      "heading": "bảng điều khiển",
+      "orders": "Đơn đặt hàng",
+      "registrations_label": "Thành viên mới",
+      "spending": "Chi tiêu",
+      "total_customers_registered": "Khách hàng",
+      "total_points_spent": "Số điểm đã chi tiêu"
+    },
+    "data": {
+      "basic": "Thông tin cơ bản",
+      "change_password": "Đổi mật khẩu",
+      "nav": "Chỉnh sửa tài khoản của bạn"
+    },
+    "email": "E-mail",
+    "emails": {
+      "actions": "hành động",
+      "content": "Nội dung",
+      "edit": "Chỉnh sửa",
+      "edit_heading": "Chỉnh sửa email",
+      "heading": "Email",
+      "key": "Chìa khóa",
+      "list": "Danh sách email",
+      "preview": "Xem trước",
+      "prompt": "",
+      "sender_email": "Email người gửi",
+      "sender_name": "Tên người gửi",
+      "receiver_email": "Email người nhận",
+      "subject": "Chủ thể",
+      "updated_at": "Cập nhật tại",
+      "variables": "Biến"
+    },
+    "first_name": "Tên đầu tiên",
+    "heading": "bảng điều khiển",
+    "last_name": "Họ",
+    "logs": {
+      "audit_log_id": "ID nhật ký kiểm tra",
+      "choose_dates": "Chọn phạm vi ngày",
+      "created_at": "Được tạo vào lúc",
+      "entity_id": "ID phap nhân",
+      "entity_type": "Loại thực thể",
+      "event_type": "Loại sự kiện",
+      "export_to_csv": "Xuất sang CSV",
+      "from": "Từ",
+      "heading": "Nhật ký",
+      "list": "Danh sách email",
+      "search_by_date": "Tìm kiếm theo khoảng thời gian:",
+      "to": "ĐẾN",
+      "username": "tên tài khoản"
+    },
+    "phone": "Điện thoại",
+    "translations": {
+      "actions": "hành động",
+      "add": "Tạo bản dịch mới",
+      "add_heading": "bản dịch mới",
+      "content": "Nội dung",
+      "content_error": "JSON không hợp lệ",
+      "edit_heading": "Chỉnh sửa",
+      "heading": "Bản dịch",
+      "list": "Danh sách bản dịch",
+      "name": "Tên",
+      "name_prompt": "",
+      "updated_at": "Cập nhật tại",
+      "code": "Mã (ngôn ngữ)",
+      "code_prompt": "",
+      "order": "Đặt hàng",
+      "order_prompt": "",
+      "default": "Mặc định",
+      "default_prompt": "",
+      "delete_confirmation": "Bạn có muốn xóa bản dịch này không?",
+      "delete_confirmation_description": "Bản dịch này sẽ bị xóa vĩnh viễn"
+    }
+  },
+  "admin_edit": {
+    "heading": "Hồ sơ quản trị viên"
+  },
+  "Bad credentials": "chứng chỉ tồi",
+  "campaign": {
+    "choose": "Tải lên",
+    "add_another": "Thêm cái khác",
+    "add_photo": "Thêm ảnh",
+    "photos": "Ảnh",
+    "export_title": "Xuất khẩu",
+    "download_report": "Tải xuống báo cáo",
+    "export_csv": "Xuất sang CSV",
+    "actions": "hành động",
+    "active": "Hoạt động",
+    "active_from": "Hoạt động từ",
+    "active_from_prompt": "",
+    "active_prompt": "",
+    "active_to": "Hoạt động để",
+    "active_to_prompt": "",
+    "activity": "Hoạt động",
+    "activity_statuses": {
+      "active": "Hoạt động",
+      "all": "Tất cả",
+      "inactive": "Không hoạt động"
+    },
+    "status": "Trạng thái",
+    "coupon_statuses": {
+      "inactive": "Không hoạt động",
+      "active": "Hoạt động",
+      "expired": "Hết hạn",
+      "cancelled": "Đã hủy"
+    },
+    "add": "Thêm chiến dịch phần thưởng",
+    "add_heading": "Thêm chiến dịch phần thưởng",
+    "add_label": "Thêm nhãn",
+    "all_time": "Mọi lúc",
+    "all_time_active": "Luôn hoạt động",
+    "all_time_active_prompt": "Chiến dịch tặng thưởng không bị giới hạn về thời gian",
+    "all_time_visible": "Luôn luôn hiển thị",
+    "all_time_visible_prompt": "Chiến dịch tặng thưởng luôn hiển thị với khách hàng",
+    "basic_info": "Chi tiết chiến dịch",
+    "buy_campaign_manually_modal": "Mua {{name}} chiến dịch dành cho khách hàng",
+    "categories": "Thể loại",
+    "categories_prompt": "",
+    "category": {
+      "heading": "Danh mục chiến dịch",
+      "edit_heading": "Chỉnh sửa",
+      "add_heading": "Thêm danh mục chiến dịch",
+      "list": "Danh sách danh mục chiến dịch",
+      "name": "Tên",
+      "name_prompt": "",
+      "sort_order": "Thứ tự sắp xếp",
+      "sort_order_prompt": "",
+      "active": "Hoạt động",
+      "active_prompt": "",
+      "add": "Thêm danh mục chiến dịch",
+      "basic_info": "Thông tin cơ bản",
+      "basic_info_details": "Thông tin chi tiết cơ bản"
+    },
+    "campaign_type": {
+      "all": "Tất cả"
+    },
+    "cashback": "Hoàn lại tiền",
+    "connect_type": {
+      "heading": "Kiểu kết nối",
+      "none": "Không có",
+      "qrcode_earning_rule": "Quy tắc kiếm QRCode",
+      "geolocation_earning_rule": "Quy tắc kiếm tiền theo vị trí địa lý"
+    },
+    "connect_type_prompt": "",
+    "conditions_description": "Mô tả tình trạng",
+    "conditions_description_prompt": "",
+    "cost_in_points": "Chi phí tính bằng điểm",
+    "cost_in_points_prompt": "",
+    "coupon": "Phiếu mua hàng",
+    "coupon_used": "Số lượng phiếu giảm giá sử dụng",
+    "coupons": "Mã phiếu mua hàng",
+    "coupons_count": "Số phiếu giảm giá ",
+    "coupons_info": "Phiếu giảm giá",
+    "coupons_prompt": "",
+    "coupons_upload": "Tải lên phiếu giảm giá",
+    "coupons_upload_prompt": "",
+    "current_points_amount": "Số điểm hoạt động của khách hàng",
+    "custom_campaign_code": "Chiến dịch tùy chỉnh",
+    "customer_email": "Email của khách hàng",
+    "customer_email_or_phone": "Email hoặc điện thoại",
+    "customer_email_or_phone_prompt": "Tìm kiếm khách hàng qua email hoặc điện thoại",
+    "customer_lastname": "Họ của khách hàng",
+    "customer_name": "Tên của khách hàng",
+    "customer_phone": "Điện thoại",
+    "customers": "Khách hàng",
+    "days_inactive": "Số ngày không hoạt động",
+    "days_inactive_prompt": "Số ngày cho đến khi mã sẽ hoạt động. ",
+    "days_valid": "Ngày hợp lệ",
+    "days_valid_prompt": "Số ngày cho đến khi mã sẽ hết hạn. ",
+    "date_from": "Từ ngày",
+    "date_to": "Ngày tới",
+    "delivered": "Chưa sử dụng/đã sử dụng",
+    "delivery_statuses": {
+      "all": "Tất cả",
+      "ordered": "Đã đặt hàng",
+      "canceled": "Đã hủy",
+      "shipped": "Đã vận chuyển",
+      "delivered": "Đã giao hàng"
+    },
+    "delivery_status": "Tình trạng giao hàng",
+    "details_heading": "Chi tiết chiến dịch",
+    "discount_code": "Mã giảm giá",
+    "earning_rule": "Quy tắc tích điểm",
+    "earning_rule_prompt": "",
+    "earning_rule_points_amount": "Kiếm được số điểm quy tắc",
+    "edit": "Chỉnh sửa chiến dịch khen thưởng",
+    "edit_heading": "Chỉnh sửa chiến dịch khen thưởng",
+    "event_code": "Lời mời tham dự sự kiện",
+    "featured": "Đặc sắc",
+    "featured_prompt": "",
+    "public": "Công cộng",
+    "public_prompt": "",
+    "free_delivery_code": "Giao hàng miễn phí",
+    "gift_code": "Quà",
+    "heading": "Chiến dịch khen thưởng",
+    "inactive": "Không hoạt động",
+    "key": "Chìa khóa",
+    "label": "Nhãn",
+    "label_key_prompt": "",
+    "label_value_prompt": "",
+    "labels": "Nhãn",
+    "levels": "Cấp độ",
+    "levels_prompt": "",
+    "limit": "Giới hạn",
+    "limit_info": "Giới hạn",
+    "limit_per_user": "Giới hạn cho mỗi khách hàng",
+    "limit_per_user_prompt": "",
+    "limit_prompt": "",
+    "list": "Danh sách chiến dịch khen thưởng",
+    "more_information_link": "Liên kết thông tin thêm",
+    "more_information_link_prompt": "",
+    "name": "Tên",
+    "name_prompt": "",
+    "no_data": "Không có dữ liệu để hiển thị",
+    "percentage_discount_code": "Mã giảm giá phần trăm",
+    "photo": "Ảnh chiến dịch",
+    "point_value": "Giá trị điểm",
+    "point_value_prompt": "Mỗi điểm sẽ được đổi lấy giá trị được cung cấp (bằng loại tiền hiện tại)",
+    "purchase_at": "Đã mua tại",
+    "push_notification_text": "Văn bản thông báo đẩy",
+    "push_notification_text_prompt": "Tin nhắn đẩy được gửi tới khách hàng về chiến dịch này sẽ có sẵn cho họ",
+    "redeemed_heading": "Đã đổi phần thưởng",
+    "redeemed_list": "Danh sách phần thưởng đã đổi",
+    "reward": "Loại chiến dịch",
+    "reward_name": "Phần thưởng",
+    "reward_redeem_date": "Đổi ngày và giờ",
+    "usage_date": "Ngày và giờ sử dụng",
+    "reward_type": "Kiểu",
+    "reward_value": "Giá trị phần thưởng",
+    "reward_value_description": "",
+    "reward_value_prompt": "Giá trị phần thưởng",
+    "segments": "phân khúc",
+    "segments_prompt": "",
+    "short_description": "Mô tả ngắn",
+    "short_description_prompt": "",
+    "show_customers": "Hiển thị khách hàng",
+    "singleCoupon": "Phiếu giảm giá duy nhất",
+    "singleCoupon_prompt": "",
+    "target_type": "Loại mục tiêu",
+    "target_type_prompt": "",
+    "tax": "Thuế",
+    "tax_price_value": "Giá trị thuế",
+    "tax_price_value_prompt": "Trị giá thuế thưởng",
+    "tax_prompt": "Tỷ lệ Giá trị thuế thưởng",
+    "transaction_document_number": "Số chứng từ giao dịch",
+    "transaction_document_number_prompt": "Tìm giao dịch theo số tài liệu",
+    "transaction_percentage_value": "Giá trị phần trăm giao dịch",
+    "transaction_percentage_value_prompt": "Phần trăm giá trị giao dịch trong phiếu giảm giá",
+    "fulfillment_tracking": "Quá trình theo dõi thực hiện",
+    "fulfillment_tracking_prompt": "",
+    "type": "Loại chiến dịch",
+    "type_info": "Loại chiến dịch",
+    "type_prompt": "",
+    "unlimited": "Việc sử dụng mã phiếu giảm giá không bị giới hạn",
+    "unlimited_prompt": "Khách hàng có thể sử dụng mã giảm giá không giới hạn",
+    "usage_instruction": "Làm thế nào để sử dụng phiếu giảm giá?",
+    "usage_instruction_prompt": "",
+    "usage_types.both": "Cả hai",
+    "usage_types.false": "Chưa sử dụng",
+    "usage_types.true": "Đã sử dụng",
+    "used_by_user": "Được khách hàng sử dụng",
+    "users_in_campaign": "Người dùng trong chiến dịch ",
+    "without_spending_points": "Không có điểm chi tiêu ",
+    "without_spending_points_prompt": "Điểm của người dùng sẽ không được sử dụng ",
+    "quantity": "Số lượng",
+    "quantity_prompt": "Bạn có thể mua nhiều phiếu giảm giá cùng một lúc",
+    "value": "Giá trị",
+    "value code": "Mã giá trị",
+    "value_code": "Mã giá trị",
+    "visibility": "Hiển thị",
+    "visible_from": "Hiển thị từ",
+    "visible_from_prompt": "",
+    "visible_to": "Hiển thị với",
+    "visible_to_prompt": "",
+    "coupon_active_since": "Phiếu giảm giá có hiệu lực kể từ",
+    "coupon_active_to": "Phiếu giảm giá đang hoạt động",
+    "coupon_forever_active": "mãi mãi",
+    "brand_description": "Mô tả thương hiệu",
+    "brand_description_prompt": "",
+    "brand_icon": "Biểu tượng thương hiệu",
+    "brand_info": "Thông tin thương hiệu",
+    "brand_name": "Tên thương hiệu",
+    "brand_name_prompt": "",
+    "campaign_shipping_address": {
+      "details": "Chi tiết vận chuyển",
+      "street": "tên đường",
+      "house_number": "số nhà",
+      "building_number": "Số tòa nhà",
+      "city": "Thành phố",
+      "postal_code": "mã bưu điện",
+      "country": "Quốc gia",
+      "voivodeship": "tỉnh trưởng"
+    }
+  },
+  "client_cockpit": {
+    "register": {
+      "form": {
+        "login": {
+          "prefix": "hoặc ",
+          "link": "đăng nhập",
+          "suffix": " vào tài khoản của bạn"
+        }
+      }
+    },
+    "global": {
+      "errors": {
+        "this_field_is_required": "Trường này là bắt buộc",
+        "this_checkbox_is_required": "Hộp kiểm này là bắt buộc",
+        "invalid_jwt_token": "Lỗi! ",
+        "not_found": "Lỗi! "
+      }
+    },
+    "login": {
+      "headline": "Bán sản phẩm, kiếm điểm và đổi phần thưởng",
+      "subtitle": "Chương trình khách hàng thân thiết dành cho đối tác và đại lý",
+      "form": {
+        "label": {
+          "email": "E-mail",
+          "password": "Mật khẩu",
+          "button": "Đăng nhập",
+          "reset_password": "Quên mật khẩu?"
+        },
+        "register": {
+          "prefix": "hoặc ",
+          "link": "đăng ký",
+          "suffix": " một tài khoản mới"
+        },
+        "validation": {
+          "api": {
+            "bad_credentials": "Email hoặc mật khẩu không chính xác.",
+            "login_success": "Đăng nhập thành công!"
+          },
+          "email": {
+            "not_valid": "Vui lòng cung cấp địa chỉ email hợp lệ."
+          },
+          "password": {
+            "not_valid": "Vui lòng cung cấp mật khẩu ít nhất 8 ký tự."
+          }
+        }
+      }
+    },
+    "logout": {
+      "validation": {
+        "api": {
+          "logged_out": "Bạn đã đăng xuất"
+        }
+      }
+    },
+    "reset_password": {
+      "form": {
+        "label": {
+          "button": "Đặt lại mật khẩu",
+          "back_to_login_prefix": "Hoặc quay lại ",
+          "back_to_login_text": "trang đăng nhập",
+          "back_to_login_suffix": ""
+        },
+        "validation": {
+          "wrong_data": "Email sai hoặc người dùng không tồn tại trong cơ sở dữ liệu",
+          "email_with_reset_link_sent": "Liên kết đặt lại mật khẩu đã được gửi đến địa chỉ email của bạn. "
+        }
+      }
+    },
+    "change_password": {
+      "form": {
+        "label": {
+          "button": "Đổi mật khẩu"
+        }
+      },
+      "validation": {
+        "invalid_reset_link": "Liên kết đặt lại không hợp lệ. ",
+        "password_has_been_changed": "Thành công! ",
+        "password": {
+          "this_value_should_not_be_blank": "Trường mật khẩu không được để trống.",
+          "your_password_must_be_at_least_8_characters_long": "Mật khẩu của bạn phải dài ít nhất 8 ký tự.",
+          "your_password_must_include_both_upper_and_lower_case_letters": "Mật khẩu của bạn phải bao gồm cả chữ hoa và chữ thường.",
+          "your_password_must_include_at_least_one_number": "Mật khẩu của bạn phải bao gồm ít nhất một số.",
+          "your_password_must_contain_at_least_one_special_character": "Mật khẩu của bạn phải chứa ít nhất một ký tự đặc biệt."
+        }
+      }
+    },
+    "homepage": {
+      "terms_popup": {
+        "button_text": "Chuyển đến chương trình khách hàng thân thiết",
+        "title": "Vui lòng chấp nhận các điều khoản và điều kiện của chương trình khách hàng thân thiết",
+        "description": "Nếu bạn muốn tham gia chương trình khách hàng thân thiết của chúng tôi, bạn phải chấp nhận các điều khoản và điều kiện của chúng tôi. "
+      },
+      "headline": "Bán sản phẩm, kiếm điểm và đổi phần thưởng",
+      "subtitle": "Chương trình khách hàng thân thiết dành cho đối tác và đại lý",
+      "earning_points_rules": {
+        "headline": "Làm thế nào để kiếm được điểm?",
+        "button_text": "Kiếm điểm"
+      },
+      "rewards": {
+        "headline": "Phần thưởng phổ biến",
+        "button_text": "Đổi phần thưởng"
+      }
+    },
+    "earning_points_rules": {
+      "list": {
+        "see_more_link_text": "thêm quy tắc kiếm điểm",
+        "see_more_link_title": "Xem thêm quy tắc tích điểm",
+        "see_more_prefix": "Nhìn thấy ",
+        "see_more_suffix": " ",
+        "points": {
+          "points": {
+            "prefix": "1 ",
+            "suffix": " điểm"
+          },
+          "event": {
+            "prefix": "",
+            "suffix": " điểm"
+          },
+          "custom_event": {
+            "prefix": "",
+            "suffix": " điểm"
+          },
+          "product_purchase": {
+            "prefix": "",
+            "suffix": " điểm"
+          },
+          "multiply_for_product": {
+            "prefix": "",
+            "suffix": " nhiều lần số điểm"
+          },
+          "referral": {
+            "prefix": "",
+            "suffix": " điểm"
+          }
+        }
+      },
+      "single": {
+        "page": {
+          "referral": {
+            "send_invite_email": "Gửi email lời mời",
+            "invitation_email_sent": "Một email mời đã được gửi",
+            "invitation_form_contains_errors": "Biểu mẫu có lỗi",
+            "send_invite": "Gửi lời mời",
+            "email_address": "Địa chỉ email"
+          },
+          "back_to_earning_points_rules_list": "Quay lại danh sách quy tắc kiếm điểm",
+          "how_to_earn_points": "Làm thế nào để kiếm được điểm?",
+          "points": {
+            "points": {
+              "prefix": "1 ",
+              "suffix": " điểm"
+            },
+            "event": {
+              "prefix": "",
+              "suffix": " điểm"
+            },
+            "custom_event": {
+              "prefix": "",
+              "suffix": " điểm"
+            },
+            "product_purchase": {
+              "prefix": "",
+              "suffix": " điểm"
+            },
+            "multiply_for_product": {
+              "prefix": "",
+              "suffix": " nhiều lần số điểm"
+            },
+            "referral": {
+              "prefix": "",
+              "suffix": " điểm"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "page": {
+        "title": "Được nhận thưởng",
+        "available_rewards": "Phần thưởng có sẵn",
+        "redeemed_rewards": "Đã đổi phần thưởng",
+        "show_more_rewards": "Hiển thị thêm phần thưởng"
+      },
+      "list": {
+        "see_more_link_text": "nhiều phần thưởng hơn",
+        "see_more_link_title": "Xem thêm phần thưởng",
+        "see_more_prefix": "Nhìn thấy ",
+        "see_more_suffix": " "
+      },
+      "single": {
+        "type": {
+          "value_code": "Mã giá trị",
+          "discount_code": "Mã giảm giá",
+          "value code": "Mã giá trị",
+          "free_delivery_code": "Mã giao hàng miễn phí",
+          "gift_code": "Mã số quà tặng",
+          "event_code": "Mã sự kiện",
+          "cashback": "Hoàn lại tiền"
+        },
+        "page": {
+          "days": "d",
+          "hours": "h",
+          "minutes": "tôi",
+          "seconds": "S",
+          "reward_will_be_available_for": "Phần thưởng sẽ có sẵn cho: ",
+          "back_to_rewards_list": "Quay lại danh sách phần thưởng",
+          "reward_availability_prefix": "Phần thưởng có sẵn kể từ ",
+          "reward_availability_suffix": " điểm",
+          "get_reward_button": "Nhận phần thưởng",
+          "reward_description": "Mô tả phần thưởng",
+          "see_full_reward_description": "Xem mô tả phần thưởng đầy đủ",
+          "reward_type": "Loại phần thưởng: ",
+          "how_to_get_reward": "Làm thế nào để nhận được phần thưởng?",
+          "reward_confirmation_question_prefix": "Bạn có muốn dành điểm (",
+          "reward_confirmation_question_suffix": ") và đổi phần thưởng “",
+          "reward_confirmation_question_sign": "”?",
+          "reward_confirmation_button": "Có, đổi phần thưởng",
+          "reward_count": "Số phần thưởng: ",
+          "reward_limit_prefix": "Giới hạn của phần thưởng này là ",
+          "reward_limit_suffix": " cho một người dùng.",
+          "reward_available_from": "Phần thưởng có sẵn từ: ",
+          "reward_available_to": "Phần thưởng có sẵn cho: ",
+          "popular_rewards": "Phần thưởng phổ biến",
+          "points": " điểm",
+          "not_enough_points_prefix": "Bạn cần bổ sung ",
+          "not_enough_points_suffix": " điểm để nhận được phần thưởng này."
+        }
+      },
+      "redeemed": {
+        "page": {
+          "title": "Được nhận thưởng",
+          "available_rewards": "Phần thưởng có sẵn",
+          "redeemed_rewards": "Đã đổi phần thưởng",
+          "show_more_rewards": "Hiển thị thêm phần thưởng"
+        },
+        "single": {
+          "page": {
+            "reward_bought": "Phần thưởng đã mua",
+            "reward_code": "Mã thưởng",
+            "reward_redeemed_notification": "Phần thưởng đã được đổi thành công"
+          }
+        }
+      }
+    },
+    "header": {
+      "get_rewards": "Được nhận thưởng",
+      "earn_points": "Kiếm điểm",
+      "level": "mức độ",
+      "points": "điểm",
+      "logo_alt_text": "Chương trình Đối tác HP",
+      "notification_text_prefix": "Anh có thể kiểm tra ",
+      "notification_text": "phần thưởng mới",
+      "notification_text_suffix": " chúng tôi đã chuẩn bị."
+    },
+    "footer": {
+      "section": {
+        "first": {
+          "headline": "Về",
+          "link": {
+            "a": "Giới thiệu chương trình",
+            "a_route": "http://pwacc-dev.herokuapp.com/link-1",
+            "b": "Làm thế nào để đạt được trình độ cao hơn?",
+            "b_route": "http://pwacc-dev.herokuapp.com/link-1",
+            "c": "Điều khoản của chương trình",
+            "c_route": "http://pwacc-dev.herokuapp.com/link-1",
+            "d": "",
+            "d_route": ""
+          }
+        },
+        "second": {
+          "headline": "Điểm",
+          "link": {
+            "a": "Cách kiếm điểm",
+            "a_route": "http://pwacc-dev.herokuapp.com/link-1",
+            "b": "Điểm của tôi",
+            "b_route": "http://pwacc-dev.herokuapp.com/link-2",
+            "c": "",
+            "c_route": "",
+            "d": "",
+            "d_route": ""
+          }
+        },
+        "third": {
+          "headline": "Phần thưởng",
+          "link": {
+            "a": "Làm thế nào để đổi phần thưởng?",
+            "a_route": "http://pwacc-dev.herokuapp.com/link-1",
+            "b": "Làm thế nào để mở khóa phần thưởng?",
+            "b_route": "http://pwacc-dev.herokuapp.com/link-2",
+            "c": "Giải thưởng của tôi",
+            "c_route": "http://pwacc-dev.herokuapp.com/link-3",
+            "d": "",
+            "d_route": ""
+          }
+        },
+        "fourth": {
+          "headline": "Giúp đỡ",
+          "link": {
+            "a": "Câu hỏi thường gặp",
+            "a_route": "http://pwacc-dev.herokuapp.com/link-1",
+            "b": "Liên hệ chúng tôi",
+            "b_route": "http://pwacc-dev.herokuapp.com/link-2",
+            "c": "",
+            "c_route": "",
+            "d": "",
+            "d_route": ""
+          }
+        }
+      },
+      "link": {
+        "cookie_policy": "<a href='https://test.web.cloud.openloyalty.io/terms-conditions'>Các điều khoản và điều kiện</a>"
+      },
+      "copyright_text": "© 2018 Lòng trung thành mở. "
+    },
+    "customer": {
+      "navigation": {
+        "my_profile": "Thông tin của tôi",
+        "my_level": "Trình độ của tôi",
+        "my_transactions": "Giao dịch của tôi",
+        "my_points": "Điểm của tôi",
+        "my_rewards": "Giải thưởng của tôi",
+        "logout": "Đăng xuất"
+      },
+      "loyalty": {
+        "active_points": "Điểm hoạt động",
+        "used_points": "Điểm đã sử dụng",
+        "expired_points": "Điểm đã hết hạn",
+        "locked_points": "Điểm bị khóa",
+        "total_points": "Tổng số điểm kiếm được",
+        "total_points_since_last_level_recalculation": "Tổng số điểm kiếm được kể từ khi tính lại cấp độ cuối cùng",
+        "level_will_expire_in_days": "Cấp độ sẽ hết hạn sau",
+        "level_will_expire_in_days_prompt": " ngày"
+      },
+      "table": {
+        "date_and_time": "Ngày và giờ",
+        "transaction_number": "Số giao dịch",
+        "value": "Giá trị",
+        "points_number": "Số điểm",
+        "type": "Kiểu",
+        "operation": "hoạt động",
+        "sell": "Bán",
+        "return": "Trở lại",
+        "name": "Tên",
+        "count": "Đếm",
+        "sku": "Mã sản phẩm",
+        "category": "Loại",
+        "brand_name": "Tên thương hiệu",
+        "level": "Mức độ",
+        "level_description": "Mô tả cấp độ",
+        "available_from": "Có sẵn từ"
+      },
+      "profile": {
+        "general_information": "Thông tin chung",
+        "address_information": "Thông tin địa chỉ",
+        "company_information": "Chi tiết công ty",
+        "terms_and_conditions": "Các điều khoản và điều kiện",
+        "edit_data": "Chỉnh sửa dữ liệu",
+        "first_name": "Tên đầu tiên",
+        "last_name": "Họ",
+        "male": "Nam giới",
+        "female": "Nữ giới",
+        "not_disclosed": "Không được công bố",
+        "email": "E-mail",
+        "date_of_birth": "Ngày sinh",
+        "password": "Mật khẩu",
+        "confirm_password": "Xác nhận mật khẩu",
+        "phone_number": "Số điện thoại",
+        "street": "tên đường",
+        "house_number": "số nhà",
+        "building_number": "Số tòa nhà",
+        "city": "Thành phố",
+        "postal_code": "mã bưu điện",
+        "country": "Quốc gia",
+        "voivodeship": "tỉnh trưởng",
+        "company_name": "Tên công ty",
+        "company_tax_id": "Mã số thuế công ty",
+        "agreement": {
+          "first": "Tôi chấp nhận các điều khoản và điều kiện.",
+          "second": "Tôi chấp nhận sự tham gia của tôi vào dịch vụ bản tin.",
+          "third": "Tôi chấp nhận tất cả các thỏa thuận tiếp thị."
+        },
+        "validation": {
+          "api": {
+            "profile_updated": "Hồ sơ của bạn đã được chỉnh sửa thành công"
+          }
+        }
+      },
+      "pts": "điểm",
+      "my_account": "Tài khoản của tôi",
+      "client_name": "Khách hàng: ",
+      "phone_number": "Số điện thoại: ",
+      "card_number": "Số thẻ: ",
+      "email": "E-mail: ",
+      "buy_date": "Ngày mua: ",
+      "points_count": "Số điểm: ",
+      "assigned_level": "Cấp độ hiện tại",
+      "delete_confirmation_description": "Khách hàng này sẽ bị vô hiệu hóa và sẽ không có khả năng kích hoạt lại anh ta",
+      "transactions_amount": "Giá trị giao dịch",
+      "transactions_amount_to_next_level": "Giá trị giao dịch cho cấp độ tiếp theo",
+      "transactions_amount_to_next_level_without_delivery_costs": "Giá trị giao dịch (không bao gồm phí vận chuyển) cho cấp độ tiếp theo",
+      "next_level": "Cấp độ tiếp theo",
+      "rewards_page": "Trang phần thưởng",
+      "transactions_page": "Trang giao dịch",
+      "transaction": "Giao dịch ",
+      "no_transaction_placeholder": "Bạn chưa có bất kỳ giao dịch nào.",
+      "no_points_operation_placeholder": "Bạn chưa có điểm nào.",
+      "no_rewards_redeemed_placeholder": "Bạn chưa đổi phần thưởng nào.",
+      "no_rewards_available_placeholder": "Bạn không có sẵn bất kỳ phần thưởng nào.",
+      "no_earning_points_rules_available_placeholder": "Bạn không có sẵn bất kỳ quy tắc kiếm điểm nào.",
+      "my_transactions": "Giao dịch của tôi",
+      "profile_page": "Thông tin của tôi",
+      "register_new_account": "Đăng ký tài khoản mới",
+      "add_company_details": "Thêm chi tiết công ty",
+      "add_your_address": "Thêm địa chỉ của bạn",
+      "register_button": "Đăng ký",
+      "points_from_rule": "Điểm từ quy tắc ",
+      "points_redeemed_for_reward": "Điểm quy đổi thành phần thưởng "
+    },
+    "form": {
+      "validation": {
+        "your_password_must_be_at_least_8_characters_long": "Mật khẩu của bạn phải dài ít nhất 8 ký tự.",
+        "your_password_must_include_at_least_one_letter": "Mật khẩu của bạn phải bao gồm ít nhất một chữ cái.",
+        "your_password_must_include_at_least_one_number": "Mật khẩu của bạn phải bao gồm ít nhất một số.",
+        "your_password_must_contain_at_least_one_special_character": "Mật khẩu của bạn phải chứa ít nhất một ký tự đặc biệt.",
+        "your_password_must_include_both_upper_and_lower_case_letters.": "Mật khẩu của bạn phải bao gồm cả chữ hoa và chữ thường.",
+        "customer_with_such_email_already_exists": "Khách hàng có email như vậy đã tồn tại",
+        "please_fill_form": "Xin vui lòng điền đầy đủ vào những ô trống cần thiết",
+        "form_contains_errors": "Biểu mẫu có lỗi"
+      }
+    }
+  },
+  "role": {
+    "heading": "Vai trò",
+    "add": "Thêm vai trò",
+    "list": "Danh sách vai trò",
+    "actions": "hành động",
+    "edit_heading": "Chỉnh sửa vai trò",
+    "basic_info": "Thông tin cơ bản",
+    "name": "Tên",
+    "name_prompt": "",
+    "permissions": "Quyền",
+    "access": "Truy cập",
+    "access_prompt": "",
+    "resource": "Nguồn",
+    "resource_prompt": "",
+    "add_permission": "Thêm quyền",
+    "add_heading": "Thêm vai trò",
+    "delete_confirmation": "Bạn có muốn xóa vai trò đã chọn không?",
+    "delete_confirmation_description": "Thao tác này không thể hoàn tác."
+  },
+  "customer": {
+    "actions": "hành động",
+    "activate_confirmation": "Kích hoạt khách hàng",
+    "activate_confirmation_description": "Bạn có muốn kích hoạt khách hàng?",
+    "add": "Thêm khách hàng",
+    "add_address": "Địa chỉ",
+    "add_company": "Công ty",
+    "add_heading": "Thêm khách hàng",
+    "add_label": "Thêm nhãn",
+    "add_points_transfer": "Thêm chuyển điểm mới",
+    "address": "Địa chỉ",
+    "address_address1_prompt": "",
+    "address_address2_prompt": "",
+    "address_city_prompt": "",
+    "address_country_prompt": "",
+    "address_province_prompt": "",
+    "address_street_prompt": "",
+    "agreement1": "Thỏa thuận pháp lý",
+    "agreement1_prompt": "Thỏa thuận này là bắt buộc",
+    "agreement2": "Thỏa thuận tiếp thị",
+    "agreement2_prompt": "",
+    "agreement3": "Thỏa thuận xử lý dữ liệu",
+    "agreement3_prompt": "",
+    "agreements": "Thỏa thuận",
+    "all_campaigns": "Tất cả các chiến dịch khen thưởng",
+    "all_profile_details": "Hiển thị tất cả chi tiết hồ sơ",
+    "all_rewards": "Tất cả phần thưởng",
+    "all_transactions": "Tất cả các giao dịch",
+    "all_transfers": "Chuyển toàn bộ điểm",
+    "assign_level": "Thay đổi cấp độ",
+    "assigned_level": "Cấp độ hiện tại",
+    "assigned_pos": "POS được chỉ định",
+    "assigned_seller": "Người bán được chỉ định",
+    "average_transaction_amount": "AVO",
+    "basic_info": "Thông tin cơ bản",
+    "birth_date": "Ngày sinh",
+    "birth_date_prompt": "",
+    "building_name": "Tên tòa nhà",
+    "campaign": {
+      "active_points": "Đổi phần thưởng mới, bạn có thể sử dụng <b>{{points}}</b> điểm hoạt động",
+      "all_time_Active": "Luôn hoạt động",
+      "bought_list": "Phần thưởng đã đổi của tôi",
+      "coupon_used": "Phiếu giảm giá này đã được sử dụng",
+      "date_from": "Từ ngày",
+      "date_to": "Ngày tới",
+      "export_csv": "Xuất CSV",
+      "export_title": "Xuất báo cáo CSV",
+      "footer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+      "list": "Giải thưởng của tôi",
+      "no_bought_rewards": "Không có phần thưởng quy đổi",
+      "no_desc": "Mô tả phần thưởng chưa được đặt",
+      "no_name": "Không có tên chiến dịch khen thưởng",
+      "no_rewards": "Không có phần thưởng có sẵn",
+      "not_enough_points": "Không đủ điểm",
+      "points": "Điểm",
+      "redeem": "Đổi phần thưởng",
+      "reward_code": "MÃ THƯỞNG",
+      "reward_congratulations": "Chúc mừng!",
+      "reward_footer": "Hướng dẫn nhận phần thưởng, lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+      "reward_ready": "Phần thưởng của bạn đã sẵn sàng để nhận.",
+      "see_bought": "Xem phần thưởng bạn đã đổi",
+      "singleCoupon": "Phiếu giảm giá duy nhất",
+      "singleCoupon_prompt": "Để đổi quà, khách hàng sẽ có thể sử dụng cùng một phiếu giảm giá",
+      "used_confirmation": "Xác nhận việc sử dụng phần thưởng",
+      "used_confirmation_description": "Vui lòng xác nhận việc sử dụng phần thưởng",
+      "will_be_active_all_time": "Chiến dịch này sẽ hoạt động mọi lúc",
+      "will_be_active_dates": "Chiến dịch khen thưởng này sẽ hoạt động từ {{from}} ĐẾN {{to}}",
+      "will_be_active_soon": "Chưa hoạt động"
+    },
+    "campaigns_heading": "Chiến dịch khen thưởng",
+    "campaigns_list": "Tất cả Chiến dịch phần thưởng mà người dùng có thể sử dụng ",
+    "change_level": "Thay đổi cấp độ",
+    "change_password": {
+      "current": "Mật khẩu hiện tại",
+      "do_not_match": "Mật khẩu không phù hợp",
+      "new_first": "Mật khẩu mới",
+      "new_second": "Lặp lại mật khẩu mới"
+    },
+    "city": "Thành phố",
+    "company_data": "Dữ liệu công ty",
+    "company_name": "Tên công ty",
+    "company_name_prompt": "",
+    "company_nip_prompt": "",
+    "country": "Quốc gia",
+    "created_at": "Được tạo vào lúc",
+    "current_level": "Cấp độ hiện tại",
+    "days_from_last_transaction": "Số ngày kể từ lần đặt hàng cuối cùng",
+    "delete_confirmation": "Vô hiệu hóa khách hàng này?",
+    "delete_confirmation_description": "Khách hàng này sẽ bị vô hiệu hóa và sẽ không có khả năng kích hoạt lại anh ta",
+    "edit": "Chỉnh sửa",
+    "edit_heading": "Chỉnh sửa khách hàng",
+    "email": "E-mail",
+    "email_prompt": "",
+    "empty_campaigns": "Không có dữ liệu để hiển thị",
+    "empty_rewards": "Không có dữ liệu để hiển thị",
+    "empty_transactions": "Không có dữ liệu để hiển thị",
+    "empty_transfers": "Không có dữ liệu để hiển thị",
+    "female": "Nữ giới",
+    "not_disclosed": "Không được công bố",
+    "first_name_prompt": "",
+    "flat_name": "Tên căn hộ/căn hộ",
+    "gender": "Giới tính",
+    "gender_prompt": "",
+    "heading": "Khách hàng",
+    "import": "Tải lên",
+    "import_title": "Nhập khẩu khách hàng",
+    "import_xml_field": "tập tin XML",
+    "inactive": "Không hoạt động",
+    "key": "Chìa khóa",
+    "label": "Nhãn",
+    "label_key_prompt": "",
+    "label_value_prompt": "",
+    "labels": "Nhãn",
+    "last_name_prompt": "",
+    "lc_number": "Số thẻ khách hàng thân thiết",
+    "list": "Danh sách khách hàng",
+    "loyalty": {
+      "active_points": "Điểm hoạt động",
+      "expired_points": "Điểm đã hết hạn",
+      "title": "Lòng trung thành",
+      "used_points": "Điểm đã sử dụng",
+      "locked_points": "Điểm bị khóa",
+      "total_points": "Tổng số điểm kiếm được",
+      "total_points_since_last_level_recalculation": "Tổng số điểm kiếm được kể từ khi tính lại cấp độ cuối cùng",
+      "level_will_expire_in_days": "Cấp độ sẽ hết hạn sau",
+      "level_will_expire_in_days_prompt": " ngày"
+    },
+    "loyalty_card_number_prompt": "",
+    "male": "Nam giới",
+    "name": "Tên đầu tiên",
+    "nip": "Mã số thuế",
+    "no_level": "Khách hàng không được xếp vào bất kỳ cấp độ nào",
+    "no_pos": "Khách hàng không được chỉ định vào bất kỳ POS nào",
+    "no_segments": "Khách hàng chưa được chỉ định vào bất kỳ phân khúc nào",
+    "password": "Mật khẩu",
+    "phone": "Điện thoại",
+    "phone_prompt": "",
+    "postal": "mã bưu điện",
+    "postal_prompt": "",
+    "profile_details": "Chi tiết hồ sơ",
+    "profitability": {
+      "avo": "AVO",
+      "clv": "CLV",
+      "orders": "Đơn đặt hàng",
+      "title": "Khả năng sinh lời"
+    },
+    "referred": {
+      "heading": "Danh sách khách hàng được giới thiệu",
+      "list": "Khách hàng được giới thiệu",
+      "recipient_email": "Người nhận E-mail",
+      "recipient_phone": "Điện thoại người nhận",
+      "recipient_id": "Id người nhận",
+      "recipient_name": "Tên người nhận",
+      "referred_completed": "Số lượng tài liệu tham khảo đã hoàn thành",
+      "referred_registered": "Số lượng chuyển đổi",
+      "referred_total": "Số lượt giới thiệu",
+      "referrer_id": "Id người giới thiệu",
+      "referrer_name": "tên người giới thiệu",
+      "status": "Trạng thái",
+      "statuses": {
+        "all": "Tất cả",
+        "invited": "Được mời",
+        "made_purchase": "Đã mua hàng",
+        "registered": "Đăng ký"
+      }
+    },
+    "remove_manually_level_title": "Xóa cấp độ được chỉ định thủ công",
+    "resend_activation_code": "Gửi lại mã kích hoạt",
+    "rewards_heading": "Đã đổi phần thưởng",
+    "rewards_list": "Phần thưởng do khách hàng quy đổi ",
+    "segments": "phân khúc",
+    "show_address_prompt": "",
+    "show_company_prompt": "",
+    "single_data": "Dữ liệu của khách hàng",
+    "state": "Tiểu bang/Tỉnh",
+    "street": "tên đường",
+    "surname": "Họ",
+    "tabs": {
+      "campaigns": "Phần thưởng có sẵn",
+      "rewards": "Đã đổi phần thưởng",
+      "transactions": "Giao dịch",
+      "transfers": "Chuyển điểm"
+    },
+    "transactions_amount": "CLV",
+    "transactions_count": "Đơn đặt hàng",
+    "transactions_heading": "Giao dịch",
+    "transactions_list": "Tất cả các giao dịch được liên kết với khách hàng ",
+    "transfers_heading": "Chuyển điểm cho khách hàng",
+    "transfers_list": "Danh sách chuyển điểm",
+    "value": "Giá trị"
+  },
+  "customer with such loyalty card number already exists": "Khách hàng có số thẻ khách hàng thân thiết như vậy đã tồn tại",
+  "customer with such phone already exists": "Khách hàng có điện thoại như vậy đã tồn tại",
+  "customer_campaign": {
+    "active_points": "Đổi phần thưởng mới, bạn có thể sử dụng <b>{{points}}</b> điểm hoạt động",
+    "all_time_Active": "Luôn hoạt động",
+    "bought_list": "Phần thưởng đã đổi của tôi",
+    "coupon_used": "Phiếu giảm giá này đã được sử dụng",
+    "footer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "list": "Giải thưởng của tôi",
+    "will_be_active_since": "Phiếu giảm giá bắt đầu hoạt động vào  {{ date }}",
+    "will_be_active_till": "Bạn có thể sử dụng phiếu giảm giá này cho đến khi {{ date }}",
+    "more_information": {
+      "button": "Bấm vào đây để biết thêm"
+    },
+    "no_bought_rewards": "Không có phần thưởng quy đổi",
+    "no_desc": "Mô tả phần thưởng chưa được đặt",
+    "no_name": "Không có tên chiến dịch khen thưởng",
+    "no_rewards": "Không có phần thưởng có sẵn",
+    "not_enough_points": "Không đủ điểm",
+    "points": "Điểm",
+    "redeem": "Đổi phần thưởng",
+    "reward_code": "MÃ THƯỞNG",
+    "reward_congratulations": "Chúc mừng!",
+    "reward_ended": "Có lẽ chiến dịch này đã kết thúc",
+    "reward_footer": "Hướng dẫn nhận phần thưởng, lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "reward_not_available": "Phần thưởng này không có sẵn",
+    "reward_ready": "Phần thưởng của bạn đã sẵn sàng để nhận.",
+    "see_bought": "Xem phần thưởng bạn đã đổi",
+    "singleCoupon_prompt": "Để đổi quà, khách hàng sẽ có thể sử dụng cùng một phiếu giảm giá",
+    "used_confirmation": "Xác nhận việc sử dụng phần thưởng",
+    "used_confirmation_description": "Vui lòng xác nhận việc sử dụng phần thưởng",
+    "will_be_active_all_time": "Chiến dịch này sẽ hoạt động mọi lúc",
+    "will_be_active_dates": "Chiến dịch khen thưởng này sẽ hoạt động từ {{from}} ĐẾN {{to}}",
+    "will_be_active_soon": "Chưa hoạt động"
+  },
+  "customer_dashboard": {
+    "benefits_title": "Những lợi ích",
+    "check_transactions": {
+      "button_name": "XEM GIAO DỊCH",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+      "title": "Kiểm tra giao dịch của bạn"
+    },
+    "connect_with_online_store": {
+      "button_name": "KẾT NỐI",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+      "title": "Thương mại điện tử phù thủy phù hợp"
+    },
+    "current_level": "Cấp độ hiện tại của bạn là <b>{{levelName}}</b>, của bạn <br /> phần thưởng <b>-{{level}}</b> giảm giá.",
+    "customize_profile": {
+      "button_name": "CHỈNH SỬA HỒ SƠ",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+      "title": "Tùy chỉnh hồ sơ"
+    },
+    "earn_points": {
+      "button_name": "NHẬN THÊM ĐIỂM",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+      "title": "Kiếm điểm"
+    },
+    "earning_rules": "Học hỏi <a href=\"#\" ui-sref=\"customer.panel.earning_rules\">cách kiếm điểm mới</a>.",
+    "earning_rules_title": "Kiếm điểm",
+    "faq": {
+      "button_name": "đọc câu hỏi thường gặp",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+      "title": "Câu hỏi thường gặp"
+    },
+    "get_rewards": {
+      "button_name": "ĐỔI THƯỞNG",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+      "title": "Được nhận thưởng"
+    },
+    "invite": {
+      "button_name": "Mời",
+      "input_placeholder": "E-mail",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+      "title": "Mời bạn bè"
+    },
+    "my_benefits": {
+      "button_name": "Kiểm tra cấp độ",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+      "title": "Lợi ích của tôi"
+    },
+    "points_to_next_level": "Bạn cần <b>{{pointsToNextLevel}}</b> chỉ đến cấp độ tiếp theo, <a href=\"#\" ui-sref=\"customer.static({'pageName':'benefits'})\">xem chi tiết</a>",
+    "rewards": "Đổi phần thưởng mới, bạn có thể sử dụng <br /><b>{{points}}</b> điểm hoạt động. <a href=\"#\" ui-sref=\"customer.panel.campaign-list\">Được nhận thưởng</a> hoặc <a href=\"#\" ui-sref=\"customer.panel.bought-campaign-list\">Xem phần thưởng</a> bạn đã đổi quà rồi.",
+    "rewards_title": "Được nhận thưởng",
+    "see_all_benefits": "<a href=\"#\" ui-sref=\"customer.static({'pageName':'benefits'})\">Xem tất cả lợi ích</a> từ trình độ của bạn",
+    "title": "Chào mừng ",
+    "transaction_amount_to_next_level": "Bạn cần <b>{{transactionsAmountToNextLevel}}</b> đến cấp độ tiếp theo.",
+    "transaction_amount_without_delivery_costs_to_next_level": "Bạn cần <b>{{transactionsAmountToNextLevelWithoutDeliveryCosts}}</b> đến cấp độ tiếp theo.",
+    "visit_offline_stores": {
+      "button_name": "cửa hàng ngoại tuyến",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+      "title": "Ghé thăm các cửa hàng ngoại tuyến"
+    }
+  },
+  "customer_earning_rules": {
+    "custom_event": "Sự kiện tùy chỉnh",
+    "points": "Mỗi {{pointsValue}}{{currency}} = 1 điểm",
+    "product_purchase": "Điểm bổ sung khi mua hàng {{sku}}",
+    "table": {
+      "description": "Mô tả",
+      "end_at": "Kết thúc tại",
+      "name": "Làm sao?",
+      "points": "Điểm",
+      "start_at": "Bắt đầu lúc",
+      "type": "Kiểu"
+    },
+    "title": "Làm thế nào để kiếm được điểm?"
+  },
+  "customer_global": {
+    "account": "Tài khoản",
+    "active": "Hoạt động",
+    "admin_footer": "Lòng trung thành mở 2018",
+    "all_time_active": "Luôn luôn hoạt động",
+    "and": "VÀ",
+    "cancel": "Hủy bỏ",
+    "change": "Thay đổi",
+    "configuration": "Cấu hình",
+    "confirm": "Đúng",
+    "edit": "Chỉnh sửa",
+    "emails": "Email giao dịch",
+    "false": "SAI",
+    "home": "Trang chủ",
+    "inactive": "Không hoạt động",
+    "level": "Mức độ",
+    "loading": "đang tải",
+    "logout": "Đăng xuất",
+    "menu": "Thực đơn",
+    "no": "KHÔNG",
+    "no_rows_to_display": "Không có hàng để hiển thị",
+    "not_set": "Không được thiết lập",
+    "ok": "ĐƯỢC RỒI",
+    "or": "HOẶC",
+    "owner_data": {
+      "text": "Lorem ipsum dolor ngồi amet"
+    },
+    "save": "Lưu lại",
+    "search": "Tìm kiếm",
+    "segment": "Bộ phận",
+    "settings": "Cài đặt",
+    "show": "Hiện thị",
+    "start_typing_an_email": "nhập email để tìm kiếm",
+    "static_content": {
+      "benefits": {
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        "title": "Lợi ích của tôi"
+      },
+      "connect_online_stores": {
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        "title": "Thương mại điện tử phù thủy phù hợp"
+      },
+      "contact": {
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        "title": "Liên hệ"
+      },
+      "faq": {
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        "title": "Câu hỏi thường gặp"
+      },
+      "how_to_earn": {
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        "title": "Làm thế nào để kiếm được điểm?"
+      },
+      "match_with_ecommerce": {
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        "title": "Phù hợp với thương mại điện tử"
+      },
+      "rules": {
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        "title": "Các điều khoản và điều kiện"
+      },
+      "visit_offline": {
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        "title": "Ghé thăm các cửa hàng ngoại tuyến"
+      }
+    },
+    "true": "ĐÚNG VẬY",
+    "unlimited": "Vô hạn",
+    "users": "Người dùng",
+    "yes": "Đúng"
+  },
+  "customer_nav": {
+    "copyrights": "",
+    "earning_points": "Điểm của tôi",
+    "home": "Trang chủ",
+    "logo1": "Lòng trung thành",
+    "logo2": "Chương trình",
+    "match_with_ecommerce": "Phù hợp với thương mại điện tử",
+    "my_profile": "Thông tin của tôi",
+    "my_rewards": "Giải thưởng của tôi",
+    "my_transactions": "Giao dịch của tôi"
+  },
+  "customer_profile": {
+    "activate_confirmation": "Kích hoạt khách hàng",
+    "activate_confirmation_description": "Bạn có muốn kích hoạt khách hàng?",
+    "add": "Thêm khách hàng",
+    "add_address": "Địa chỉ",
+    "add_company": "Công ty",
+    "add_heading": "Thêm khách hàng",
+    "address_address1_prompt": "",
+    "address_address2_prompt": "",
+    "address_city_prompt": "",
+    "address_country_prompt": "",
+    "address_province_prompt": "",
+    "address_street_prompt": "",
+    "agreement1": "Thỏa thuận pháp lý",
+    "agreement1_prompt": "Thỏa thuận này là bắt buộc",
+    "agreement2": "Thỏa thuận tiếp thị",
+    "agreement2_prompt": "",
+    "agreement3": "Thỏa thuận xử lý dữ liệu",
+    "agreement3_prompt": "",
+    "agreements": "Thỏa thuận",
+    "basic_info": "Thông tin cơ bản",
+    "birth_date": "Ngày sinh",
+    "birth_date_prompt": "",
+    "building_name": "Xây dựng",
+    "change_password": {
+      "current": "Mật khẩu hiện tại",
+      "do_not_match": "Mật khẩu không phù hợp",
+      "new_first": "Mật khẩu mới",
+      "new_second": "Lặp lại mật khẩu mới"
+    },
+    "city": "Thành phố",
+    "company_name": "Công ty",
+    "company_name_prompt": "",
+    "company_nip_prompt": "",
+    "country": "Quốc gia",
+    "created_at": "Được tạo vào lúc",
+    "data": {
+      "basic": "Thông tin cơ bản",
+      "change_password": "Đổi mật khẩu"
+    },
+    "delete_confirmation": "Vô hiệu hóa khách hàng này?",
+    "delete_confirmation_description": "Khách hàng này sẽ bị vô hiệu hóa và sẽ không có khả năng kích hoạt lại anh ta",
+    "edit": "Chỉnh sửa",
+    "edit_heading": "Chỉnh sửa khách hàng",
+    "email": "E-mail",
+    "email_prompt": "",
+    "female": "Nữ giới",
+    "not_disclosed": "Không được công bố",
+    "first_name_prompt": "",
+    "flat_name": "Phẳng",
+    "gender": "Giới tính",
+    "gender_prompt": "",
+    "heading": "Khách hàng",
+    "inactive": "Không hoạt động",
+    "last_name_prompt": "",
+    "lc_number": "Số thẻ khách hàng thân thiết",
+    "list": "Danh sách khách hàng",
+    "loyalty_card_number_prompt": "",
+    "male": "Nam giới",
+    "name": "Tên đầu tiên",
+    "nip": "Mã số thuế",
+    "password": "Mật khẩu",
+    "phone": "Điện thoại",
+    "phone_prompt": "",
+    "postal": "Thuộc về bưu điện",
+    "postal_prompt": "",
+    "profile_details": "Chi tiết",
+    "show_address_prompt": "",
+    "show_company_prompt": "",
+    "state": "Tình trạng",
+    "street": "Đường phố",
+    "surname": "Họ",
+    "transfers_heading": "Chuyển điểm cho khách hàng",
+    "transfers_list": "Danh sách chuyển điểm"
+  },
+  "customer_security": {
+    "back_to_login": "Quay lại trang đăng nhập",
+    "change_password": "Đổi mật khẩu",
+    "login": {
+      "copyrights": "Lòng trung thành mở 2018",
+      "credentials": "chứng chỉ tồi",
+      "forgot": "Quên mật khẩu?",
+      "get_terms_conditions": "Nhận điều khoản",
+      "heading": "đăng nhập vào tài khoản của bạn",
+      "log_in": "Đăng nhập",
+      "password": "Mật khẩu",
+      "remember_me": "Giữ tôi luôn đăng nhập",
+      "username": "Đăng nhập"
+    },
+    "new_password": "Mật khẩu mới",
+    "registration": {
+      "add_address": "Thêm dữ liệu địa chỉ",
+      "add_company": "Thêm dữ liệu công ty",
+      "address": "Địa chỉ",
+      "agreement1": "Thỏa thuận pháp lý",
+      "agreement2": "Thỏa thuận tiếp thị",
+      "agreement3": "Thỏa thuận xử lý dữ liệu",
+      "agreements": "Thỏa thuận",
+      "basic_info": "Thông tin cơ bản",
+      "birth_date": "Ngày sinh",
+      "building_name": "Tên tòa nhà",
+      "check": {
+        "first": "Đạt được cấp độ!",
+        "second": "Kiếm điểm!",
+        "third": "Đổi phần thưởng!"
+      },
+      "city": "Thành phố",
+      "company_data": "Dữ liệu công ty",
+      "company_name": "Tên công ty",
+      "country": "Quốc gia",
+      "create_account": "Tạo tài khoản",
+      "description": "Bạn có thể tạo tài khoản trong chương trình khách hàng thân thiết tại đây.",
+      "email": "E-mail",
+      "female": "Nữ giới",
+      "not_disclosed": "Không được công bố",
+      "flat_name": "Tên căn hộ/căn hộ",
+      "gender": "Giới tính",
+      "heading": "Tạo tài khoản",
+      "lc_number": "Số thẻ khách hàng thân thiết",
+      "male": "Nam giới",
+      "name": "Tên đầu tiên",
+      "nip": "Mã số thuế",
+      "password": "Mật khẩu",
+      "password_repeat": "lặp lại mật khẩu",
+      "phone": "Điện thoại",
+      "postal": "mã bưu điện",
+      "state": "Tiểu bang/Tỉnh",
+      "street": "tên đường",
+      "surname": "Họ"
+    },
+    "registration_activation": {
+      "activate_or_resend_code": "Kích hoạt tài khoản hoặc gửi lại mã",
+      "code": "Mã kích hoạt",
+      "phone": "Số điện thoại",
+      "resend_code": "Mã gửi lại",
+      "title": "Kích hoạt tài khoản"
+    },
+    "request_description": "Nhập thông tin đăng nhập của bạn, chúng tôi sẽ gửi cho bạn mật khẩu khôi phục",
+    "request_heading": "Quên mật khẩu?",
+    "reset_description": "Nhập mật khẩu mới của bạn",
+    "reset_heading": "Khôi phục mật khẩu",
+    "send_request": "Khôi phục mật khẩu",
+    "username": "tên tài khoản"
+  },
+  "customer_status": {
+    "active_points": "Điểm hoạt động",
+    "current_discount": "Giảm giá hiện tại",
+    "expired_points": "Điểm đã hết hạn",
+    "locked_points": "Điểm bị khóa",
+    "total_points": "Tổng số điểm kiếm được",
+    "total_points_since_last_level_recalculation": "Tổng số điểm kiếm được kể từ khi tính lại cấp độ cuối cùng",
+    "level_will_expire_in_days_prompt": " ngày",
+    "level_will_expire_in_days": "Cấp độ sẽ hết hạn sau",
+    "my_profile": "Thông tin của tôi",
+    "my_profile_edit": "Chỉnh sửa hồ sơ",
+    "next_level_discount": "Giảm giá cấp độ tiếp theo",
+    "points_to_next_level": "Bạn cần {{ pointsToNextLevel }} nhiều điểm hơn để lên cấp độ tiếp theo",
+    "points_to_next_level2": "Điểm tới cấp độ tiếp theo",
+    "title": "Tài khoản của tôi",
+    "transactions_amount": "Giá trị giao dịch",
+    "transactions_amount_to_next_level": "Giá trị giao dịch cho cấp độ tiếp theo",
+    "transactions_amount_to_next_level_without_delivery_costs": "Giá trị giao dịch (không bao gồm phí vận chuyển) cho cấp độ tiếp theo",
+    "used_points": "Điểm đã sử dụng"
+  },
+  "customer_transaction": {
+    "actions": "hành động",
+    "amount": "Số lượng",
+    "building_name": "Tên tòa nhà",
+    "category": "Loại",
+    "city": "Thành phố",
+    "country": "Quốc gia",
+    "customer_email": "E-mail",
+    "customer_email_prompt": "Tìm kiếm khách hàng qua email",
+    "customer_id": "ID khách hàng",
+    "customer_id_prompt": "Đặt ID duy nhất của khách hàng",
+    "customer_loyalty_card_number": "Số thẻ khách hàng thân thiết",
+    "customer_name": "Tên khách hàng",
+    "customer_phone_number": "Số điện thoại",
+    "details": "Chi tiết giao dịch",
+    "document_number": "Số văn bản",
+    "document_type": "Loại tài liệu",
+    "document_types": {
+      "both": "Cả hai",
+      "return": "Trở lại",
+      "sell": "Bán"
+    },
+    "email": "E-mail",
+    "empty_transactions": "Không có giao dịch nào để hiển thị",
+    "gross": "Tổng giá trị",
+    "heading": "Giao dịch",
+    "id": "ID giao dịch",
+    "item_details": "Mục chi tiết",
+    "labels": "Nhãn",
+    "link": "Phù hợp với khách hàng",
+    "link_modal": "Phù hợp với khách hàng với giao dịch",
+    "list": "Danh sách giao dịch",
+    "loyaltyCardNumber": "Số thẻ khách hàng thân thiết",
+    "maker": "Thương hiệu",
+    "name": "Tên",
+    "phone": "Điện thoại",
+    "points_earned": "Điểm kiếm được",
+    "pos_name": "Tên POS",
+    "postal_code": "mã bưu điện",
+    "purchase_date": "Ngày mua",
+    "purchase_place": "POS",
+    "quantity": "Số lượng",
+    "revised_document": "Tài liệu sửa đổi",
+    "sku": "Mã hàng",
+    "state": "Tình trạng",
+    "street": "Đường phố",
+    "sum": "TỔNG",
+    "transaction_document_number": "Số văn bản",
+    "transaction_document_number_prompt": "Tìm giao dịch theo số tài liệu",
+    "transaction_id": "ID giao dịch",
+    "unit_name": "Tên căn hộ/căn hộ"
+  },
+  "customer_transfer": {
+    "comment": "Bình luận",
+    "created_at": "Được tạo vào lúc",
+    "empty_transfers": "Không có dữ liệu để hiển thị",
+    "expire_at": "Sẽ hết hạn vào lúc",
+    "heading": "Kiếm điểm",
+    "list": "Danh sách chuyển điểm",
+    "state": "Tình trạng",
+    "type": "Kiểu",
+    "value": "Giá trị",
+    "locked_until": "Bị khóa cho đến khi"
+  },
+  "dashboard": {
+    "heading": "bảng điều khiển"
+  },
+  "earning_rule": {
+    "actions": "hành động",
+    "active": "Hoạt động",
+    "active_prompt": "",
+    "add": "Thêm quy tắc tích điểm",
+    "add_earning_rule": "Thêm quy tắc tích điểm",
+    "add_excluded_label": "Thêm nhãn bị loại trừ",
+    "add_included_label": "Thêm nhãn",
+    "add_excluded_sku": "Thêm mã hàng",
+    "add_heading": "Thêm quy tắc tích điểm",
+    "add_label_multiplier": "Thêm hệ số nhân nhãn",
+    "all_time_active": "Luôn hoạt động",
+    "all_time_active_prompt": "",
+    "basic_info": "Thông tin cơ bản",
+    "code": "Mã số",
+    "code_prompt": "",
+    "custom_event_name": "Tên sự kiện tùy chỉnh",
+    "custom_event_name_prompt": "",
+    "custom_event_usage": "Cách sử dụng",
+    "description": "Mô tả",
+    "description_prompt": "",
+    "details": "Chi tiết quy tắc tích điểm",
+    "edit": "Chỉnh sửa quy tắc tích điểm",
+    "edit_heading": "Chỉnh sửa quy tắc tích điểm",
+    "end_at": "Kết thúc tại",
+    "end_at_prompt": "",
+    "event_name": "Tên sự kiện",
+    "event_name_prompt": "",
+    "exclude_delivery_cost": "Loại trừ chi phí giao hàng",
+    "excluded_delivery_cost_prompt": "",
+    "excluded_labels": "Nhãn bị loại trừ",
+    "included_labels": "Có nhãn",
+    "excluded_skus": "SKU bị loại trừ",
+    "excluded_skus_prompt": "",
+    "labels_inclusion_type": "Loại bao gồm nhãn",
+    "labels_inclusion_type_none": "không có",
+    "labels_inclusion_type_exclude": "loại trừ",
+    "labels_inclusion_type_include": "bao gồm",
+    "labels_inclusion_type_prompt": "",
+    "heading": "Quy tắc tích điểm",
+    "key": "Chìa khóa",
+    "key_prompt": "",
+    "label_multiplier_prompt": "",
+    "label_multipliers": "Bộ nhân nhãn",
+    "label_value_prompt": "",
+    "last_executed_rule": "Là quy tắc được thực hiện lần cuối",
+    "last_executed_rule_prompt": "Nếu được chọn, tất cả các quy tắc kiếm tiền khác (được giải quyết sau giao dịch) sẽ bị bỏ qua",
+    "levels": "Cấp độ",
+    "levels_prompt": "",
+    "limit": {
+      "1 day": "1 ngày",
+      "1 month": "1 tháng",
+      "1 week": "1 tuần",
+      "active": "Giới hạn sử dụng đang hoạt động",
+      "active_prompt": "",
+      "limit": "Giới hạn",
+      "limit_prompt": "",
+      "period": "Giai đoạn",
+      "period_prompt": "",
+      "3 months": "3 tháng",
+      "6 months": "6 tháng",
+      "1 year": "1 năm",
+      "forever": "Mãi mãi"
+    },
+    "limit_info": "Giới hạn sử dụng",
+    "limit_period": {
+      "day": "ngày",
+      "month": "tháng",
+      "week": "tuần",
+      "3 months": "3 tháng",
+      "6 months": "6 tháng",
+      "1 year": "1 năm",
+      "forever": "Mãi mãi"
+    },
+    "list": "Danh sách quy tắc tích điểm",
+    "min_order_value": "Giá trị đơn hàng tối thiểu",
+    "min_order_value_prompt": "Giá trị đơn hàng tối thiểu cần thiết để kiếm điểm",
+    "multiplier": "Số nhân",
+    "multiplier_prompt": "",
+    "name": "Tên",
+    "name_prompt": "",
+    "photo": "Ảnh quy tắc tích điểm",
+    "point_value": "Giá trị điểm",
+    "point_value_prompt": "Khách hàng có thể kiếm được bao nhiêu điểm từ 1 lượng tiền",
+    "points_amount": "Điểm",
+    "points_amount_prompt": "",
+    "pos": "POS",
+    "pos_prompt": "",
+    "promoted_events": {
+      "oloy.account.created": "Tài khoản đã được tạo",
+      "oloy.customer.logged_in": "Khách hàng đã đăng nhập",
+      "oloy.customer.newsletter_subscription": "Đăng ký nhận bản tin",
+      "oloy.customer.referral": "Giới thiệu khách hàng",
+      "oloy.transaction.customer_first_transaction": "Lần mua đầu tiên"
+    },
+    "referral_events": {
+      "every_purchase": "Mỗi lần mua hàng",
+      "first_purchase": "Lần mua đầu tiên",
+      "register": "Đăng ký"
+    },
+    "referral_types": {
+      "both": "cả hai",
+      "referred": "được giới thiệu",
+      "referrer": "người giới thiệu"
+    },
+    "reward": "Phần thưởng",
+    "reward_campaign": "Chiến dịch khen thưởng",
+    "reward_campaign_prompt": "",
+    "reward_prompt": "",
+    "reward_type": "Phần thưởng",
+    "segments": "phân khúc",
+    "segments_prompt": "",
+    "select_currency": "Chọn loại tiền tệ",
+    "sku": "Mã hàng",
+    "SKU": "Mã hàng",
+    "sku_prompt": "",
+    "start_at": "Bắt đầu lúc",
+    "start_at_prompt": "",
+    "target_type": "Loại mục tiêu",
+    "target_type_prompt": "",
+    "type": "Kiểu",
+    "type_details": "Chi tiết loại",
+    "type_prompt": "",
+    "types": {
+      "custom_event": "Quy tắc sự kiện tùy chỉnh",
+      "event": "Quy tắc sự kiện",
+      "instant_reward": "Phần thưởng ngay lập tức",
+      "multiply_by_product_labels": "Nhân số điểm kiếm được với nhãn sản phẩm",
+      "multiply_for_product": "Nhân số điểm kiếm được",
+      "points": "Nguyên tắc chi tiêu chung",
+      "product_purchase": "Mua sản phẩm",
+      "referral": "Giới thiệu khách hàng",
+      "geolocation": "Định vị địa lý",
+      "qrcode": "Mã QR"
+    },
+    "value": "Giá trị",
+    "visibility_and_activity": "Hoạt động cai trị",
+    "latitude": "Vĩ độ",
+    "latitude_prompt": "",
+    "longitude": "Kinh độ",
+    "longitude_prompt": "",
+    "radius": "Bán kính",
+    "radius_prompt": "tính bằng km từ điểm xác định"
+  },
+  "front_error": {
+    "not_blank": "Giá trị này không được để trống",
+    "not_blank_or_customerLoyaltyCardNumber": "Bạn phải nhập số điện thoại hoặc số thẻ khách hàng thân thiết",
+    "not_blank_or_customerPhoneNumber": "Bạn phải nhập số điện thoại hoặc số thẻ khách hàng thân thiết",
+    "not_blank_or_documentNumber": "Bạn phải nhập số tài liệu",
+    "not_equal_plainPassword": "mật khẩu không khớp",
+    "not_equal_plainPassword2": "mật khẩu không khớp",
+    "at_least_other": "Điền vào ít nhất một trường"
+  },
+  "global": {
+    "account": "Tài khoản",
+    "active": "Hoạt động",
+    "admin_footer": "Lòng trung thành của khách hàng 2024",
+    "all_time_active": "Luôn luôn hoạt động",
+    "and": "VÀ",
+    "cancel": "Hủy bỏ",
+    "change": "Thay đổi",
+    "roles": "ACL",
+    "configuration": "Cấu hình",
+    "confirm": "Đúng",
+    "edit": "Chỉnh sửa",
+    "emails": "Email",
+    "false": "SAI",
+    "home": "Trang chủ",
+    "import": "Tải lên",
+    "inactive": "Không hoạt động",
+    "level": "Mức độ",
+    "loading": "đang tải",
+    "logout": "Đăng xuất",
+    "logs": "Nhật ký hệ thống",
+    "menu": "Thực đơn",
+    "no": "KHÔNG",
+    "no_rows_to_display": "Không có hàng để hiển thị",
+    "not_set": "Không được thiết lập",
+    "or": "HOẶC",
+    "program_name": "Lòng trung thành của khách hàng",
+    "remove": "Xoá",
+    "save": "Lưu lại",
+    "search": "Tìm kiếm",
+    "segment": "Phân khúc",
+    "settings": "Cài đặt",
+    "show": "Hiện thị",
+    "start_typing_a_number": "nhập số chứng từ giao dịch",
+    "start_typing_an_email": "nhập email để tìm kiếm",
+    "start_typing_an_email_or_phone": "nhập email hoặc số điện thoại để tìm kiếm",
+    "translations": "Bản dịch",
+    "translations_list": "Bản dịch",
+    "true": "ĐÚNG VẬY",
+    "unlimited": "Vô hạn",
+    "unlink": "Hủy liên kết",
+    "upload": "Tải lên",
+    "users": "Người dùng",
+    "yes": "Đúng"
+  },
+  "level": {
+    "active": "Hoạt động",
+    "active_prompt": "",
+    "add": "Thêm cấp độ",
+    "add_heading": "Thêm cấp độ",
+    "add_special_reward": "Thêm phần thưởng đặc biệt",
+    "assign_level": "Chỉ định cấp độ",
+    "assign_pos": "Chỉ định POS",
+    "assigned_manually": "Được chỉ định thủ công",
+    "basic_info": "Thông tin cơ bản",
+    "code": "Phiếu mua hàng",
+    "condition_value": "Giá trị điều kiện",
+    "condition_value_prompt": "",
+    "created_at": "Được tạo vào lúc",
+    "description": "Mô tả",
+    "description_prompt": "",
+    "edit": "Chỉnh sửa cấp độ",
+    "edit_heading": "Biên tập ",
+    "end_at": "Kết thúc tại",
+    "heading": "Cấp độ",
+    "inactive": "Không hoạt động",
+    "list": "Danh sách cấp độ",
+    "min_order": "Giá trị đơn hàng tối thiểu",
+    "min_order_prompt": "",
+    "name": "Tên",
+    "name_prompt": "",
+    "no_level": "Không có mức độ xác định",
+    "photo": "Ảnh cấp độ",
+    "reward_code": "Mã thưởng",
+    "reward_code_prompt": "",
+    "reward_details": "Chi tiết phần thưởng",
+    "reward_name": "Tên phần thưởng",
+    "reward_name_prompt": "",
+    "reward_value": "Giá trị phần thưởng",
+    "reward_value_prompt": "",
+    "select_level": "Chọn cấp độ",
+    "special_reward_details": "Chi tiết phần thưởng đặc biệt",
+    "special_rewards": "Phần thưởng đặc biệt",
+    "specialreward_active_prompt": "",
+    "specialreward_code_prompt": "",
+    "specialreward_endat_prompt": "",
+    "specialreward_name_prompt": "",
+    "specialreward_startat_prompt": "",
+    "specialreward_value_prompt": "",
+    "start_at": "Bắt đầu lúc",
+    "users": "Khách hàng",
+    "users_in_level": "Khách hàng ở cấp độ",
+    "value": "Giá trị"
+  },
+  "login": {
+    "copyrights": "Lòng trung thành mở 2018",
+    "credentials": "chứng chỉ tồi",
+    "forgot": "Quên mật khẩu?",
+    "heading": "đăng nhập vào tài khoản của bạn",
+    "log_in": "Đăng nhập",
+    "password": "Mật khẩu",
+    "remember_me": "Giữ tôi luôn đăng nhập",
+    "username": "Đăng nhập"
+  },
+  "nav": {
+    "add_campaign": "Thêm chiến dịch phần thưởng",
+    "add_customer": "Thêm khách hàng",
+    "add_earning_rule": "Thêm quy tắc tích điểm",
+    "add_level": "Thêm cấp độ",
+    "add_pos": "Thêm điểm bán hàng",
+    "add_segment": "Thêm phân khúc",
+    "add_seller": "Thêm người bán",
+    "all_campaigns": "Tất cả các chiến dịch khen thưởng",
+    "all_customers": "Tất cả khách hàng",
+    "all_earning_rules": "Tất cả các quy tắc tích điểm",
+    "all_levels": "Tất cả các cấp",
+    "all_pos": "Tất cả POS",
+    "all_segments": "Tất cả các phân khúc",
+    "all_sellers": "Tất cả người bán",
+    "all_transactions": "Tất cả các giao dịch",
+    "all_transfers": "Chuyển toàn bộ điểm",
+    "campaigns": "Chiến dịch khen thưởng",
+    "customers": "Khách hàng",
+    "dashboard": "bảng điều khiển",
+    "earning_rules": "Quy tắc tích điểm",
+    "guide": "Hướng dẫn",
+    "home": "Trang chủ",
+    "levels": "Cấp độ",
+    "pos": "POS",
+    "redeemed_campaigns": "Đã đổi phần thưởng",
+    "referred_customer": "Khách hàng được giới thiệu",
+    "retention_matrix": "Ma trận lưu giữ",
+    "segments": "phân khúc",
+    "sellers": "Thương gia",
+    "support": "Ủng hộ",
+    "transactions": "Giao dịch",
+    "transfers": "Chuyển điểm",
+    "all_campaign_categories": "Tất cả danh mục chiến dịch"
+  },
+  "Plik nie mógł zostać odnaleziony.": "Không thể tìm thấy tập tin",
+  "pos": {
+    "actions": "hành động",
+    "add": "Thêm điểm bán hàng",
+    "add_heading": "Thêm điểm bán hàng",
+    "address1_prompt": "",
+    "address2_prompt": "",
+    "basic_info": "Thông tin cơ bản",
+    "building_name": "Tên tòa nhà",
+    "city": "Thành phố",
+    "city_prompt": "",
+    "country": "Quốc gia",
+    "country_prompt": "",
+    "description": "Mô tả",
+    "description_prompt": "",
+    "edit": "Chỉnh sửa điểm bán hàng",
+    "edit_heading": "Chỉnh sửa điểm bán hàng",
+    "heading": "POS",
+    "identifier": "Mã định danh",
+    "identifier_prompt": "",
+    "lat": "Vĩ độ",
+    "lat_prompt": "",
+    "list": "danh sách POS",
+    "localization": "Bản địa hóa",
+    "long": "Kinh độ",
+    "long_prompt": "",
+    "name": "Tên",
+    "name_prompt": "",
+    "no_pos": "Không có POS được xác định",
+    "postal_code": "mã bưu điện",
+    "postal_prompt": "",
+    "province_prompt": "",
+    "select_country": "Chọn quốc gia",
+    "select_pos": "Chọn điểm bán hàng",
+    "state": "Tiểu bang/Tỉnh",
+    "street_name": "tên đường",
+    "street_prompt": "",
+    "transactions_amount": "Giá trị giao dịch",
+    "transactions_count": "Số lượng giao dịch",
+    "unit_name": "Tên căn hộ/căn hộ"
+  },
+  "registration": {
+    "add_address": "Thêm dữ liệu địa chỉ",
+    "add_company": "Thêm dữ liệu công ty",
+    "address": "Địa chỉ",
+    "agreement1": "Thỏa thuận pháp lý",
+    "agreement2": "Thỏa thuận tiếp thị",
+    "agreement3": "Thỏa thuận xử lý dữ liệu",
+    "agreements": "Thỏa thuận",
+    "basic_info": "Thông tin cơ bản",
+    "birth_date": "Ngày sinh",
+    "building_name": "Tên tòa nhà",
+    "check": {
+      "first": "Đạt được cấp độ!",
+      "second": "Kiếm điểm!",
+      "third": "Đổi phần thưởng!"
+    },
+    "city": "Thành phố",
+    "company_data": "Dữ liệu công ty",
+    "company_name": "Tên công ty",
+    "country": "Quốc gia",
+    "create_account": "Tạo tài khoản",
+    "description": "Bạn có thể tạo tài khoản trong chương trình khách hàng thân thiết tại đây.",
+    "email": "E-mail",
+    "female": "Nữ giới",
+    "not_disclosed": "Không được công bố",
+    "flat_name": "Tên căn hộ/căn hộ",
+    "gender": "Giới tính",
+    "heading": "Tạo tài khoản",
+    "lc_number": "Số thẻ khách hàng thân thiết",
+    "male": "Nam giới",
+    "name": "Tên đầu tiên",
+    "nip": "Mã số thuế",
+    "password": "Mật khẩu",
+    "password_repeat": "lặp lại mật khẩu",
+    "phone": "Điện thoại",
+    "postal": "mã bưu điện",
+    "state": "Tiểu bang/Tỉnh",
+    "street": "tên đường",
+    "surname": "Họ"
+  },
+  "registration_activation": {
+    "basic_info": "Kích hoạt tài khoản",
+    "code": "Mã kích hoạt"
+  },
+  "security": {
+    "back_to_login": "Quay lại trang đăng nhập",
+    "change_password": "Đổi mật khẩu",
+    "new_password": "Mật khẩu mới",
+    "request_description": "Nhập thông tin đăng nhập của bạn, chúng tôi sẽ gửi cho bạn mật khẩu khôi phục",
+    "request_heading": "Quên mật khẩu?",
+    "reset_description": "Nhập mật khẩu mới của bạn",
+    "reset_heading": "Khôi phục mật khẩu",
+    "send_request": "KHÔI PHỤC MẬT KHẨU",
+    "username": "tên tài khoản"
+  },
+  "segment": {
+    "actions": "hành động",
+    "active": "Hoạt động",
+    "active_prompt": "",
+    "add": "Thêm phân khúc",
+    "add_criterion": "Thêm điều kiện OR",
+    "add_heading": "Thêm phân khúc",
+    "add_identification_priority": "Thêm yếu tố nhận dạng",
+    "add_segment_part": "Thêm điều kiện AND",
+    "anniversary_type_days_prompt": "",
+    "anniversary_type_prompt": "",
+    "basic_info": "Thông tin cơ bản",
+    "created_at": "Được tạo vào lúc",
+    "days_prompt": "",
+    "delete_confirmation": "Bạn có muốn xóa đoạn đã chọn không?",
+    "delete_confirmation_description": "Thao tác này không thể hoàn tác.",
+    "description": "Mô tả",
+    "description_prompt": "",
+    "details_heading": "Chi tiết chiến dịch",
+    "edit": "Chỉnh sửa phân khúc",
+    "edit_heading": "Chỉnh sửa phân khúc",
+    "from_amount_prompt": "",
+    "from_date_prompt": "",
+    "heading": "phân khúc",
+    "label_key_prompt": "",
+    "label_value_prompt": "",
+    "list": "Danh sách phân khúc",
+    "maker_prompt": "",
+    "mas_prompt": "",
+    "min_prompt": "",
+    "name": "Tên",
+    "name_prompt": "",
+    "no_data": "Không có dữ liệu để hiển thị",
+    "partials": {
+      "add_label": "Thêm nhãn",
+      "anniversary": "Dịp kỉ niệm",
+      "average_transaction_amount": "Giá trị giao dịch trung bình",
+      "birthday": "Sinh nhật",
+      "bought_in_pos": "Mua tại POS cụ thể",
+      "bought_labels": "Mua sản phẩm có nhãn mác",
+      "bought_makers": "Mua thương hiệu cụ thể",
+      "bought_skus": "Đã mua SKU cụ thể",
+      "choose_pos": "Chọn điểm bán hàng",
+      "customers": "Khách hàng",
+      "customers_prompt": "Thêm khách hàng cụ thể",
+      "customer_has_labels": "Những khách hàng có nhãn như vậy",
+      "customer_list": "Danh sách khách hàng tùy chỉnh",
+      "customer_with_labels_values": "Khách hàng có giá trị nhãn như vậy",
+      "date_from": "Từ ngày",
+      "date_to": "Ngày tới",
+      "days": "Ngày",
+      "key": "Chìa khóa",
+      "last_purchase_n_days_before": "Lần mua cuối cùng là n ngày trước",
+      "makers": "Nhãn hiệu",
+      "max": "Tối đa",
+      "max_amount": "giá trị tối đa",
+      "min": "tối thiểu",
+      "min_amount": "Giá trị tối thiểu",
+      "percent": "Phần trăm",
+      "percent_prompt": "",
+      "pos": "POS",
+      "pos_id_prompt": "",
+      "purchase_period": "thời gian mua hàng",
+      "registration": "Sự đăng ký",
+      "select_pos": "Chọn một điểm bán hàng...",
+      "select_type": "Lựa chọn đối tượng...",
+      "skus": "SKU",
+      "transaction_amount": "Giá trị giao dịch",
+      "transaction_count": "Số lượng giao dịch",
+      "transaction_percent_in_pos": "Phần trăm giao dịch trong POS",
+      "type": "Kiểu",
+      "value": "Giá trị"
+    },
+    "parts": "Phần phân khúc",
+    "percent_prompt": "",
+    "pos_id_prompt": "",
+    "pos_ids_prompt": "",
+    "skus_prompt": "",
+    "to_amount_prompt": "",
+    "to_date_prompt": "",
+    "type_prompt": "",
+    "users": "Khách hàng",
+    "users_in_segment": "Khách hàng ở phân khúc"
+  },
+  "seller": {
+    "actions": "hành động",
+    "active": "Hoạt động",
+    "active_prompt": "",
+    "add": "Thêm người bán",
+    "add_heading": "Thêm người bán",
+    "allow_point_transfer": "Cho phép thêm điểm trung chuyển mới",
+    "change_password": "Đổi mật khẩu",
+    "customer_search": {
+      "city": "Thành phố",
+      "city_prompt": "Thành phố của khách hàng",
+      "email": "Địa chỉ email",
+      "email_prompt": "Địa chỉ email của khách hàng",
+      "find": "Tìm khách hàng",
+      "heading": "Xác định khách hàng",
+      "loyalty_card_number": "Số thẻ khách hàng thân thiết",
+      "name": "Tên và tên thứ hai",
+      "firstName": "Tên đầu tiên",
+      "lastName": "Họ",
+      "phone": "Số điện thoại",
+      "phone_prompt": "Số điện thoại của khách hàng",
+      "postcode": "Mã bưu điện",
+      "postcode_prompt": "Mã bưu điện của khách hàng",
+      "result": "Kết quả tìm kiếm"
+    },
+    "dashboard": {
+      "campaigns": "Chiến dịch khen thưởng",
+      "earning_points_rules": "Quy tắc tích điểm",
+      "find_customer": "Tìm khách hàng",
+      "find_transaction": "Tìm giao dịch",
+      "heading": "bảng điều khiển",
+      "match_transaction_and_customer": "Giao dịch khớp",
+      "register_customer": "Đăng ký khách hàng",
+      "title": {
+        "campaign_list": "danh sách chiến dịch",
+        "customer_campaigns": "chiến dịch khách hàng",
+        "customer_edit": "Chỉnh sửa khách hàng",
+        "customer_registration": "đăng ký khách hàng",
+        "customer_registration_activation": "kích hoạt khách hàng",
+        "customer_rewards": "phần thưởng của khách hàng",
+        "customer_transactions": "giao dịch khách hàng",
+        "customer_transfers": "chuyển khoản khách hàng",
+        "earning_rules": "Quy tắc tích điểm",
+        "find_customer": "tìm khách hàng",
+        "find_transaction": "tìm giao dịch",
+        "transactions": "giao dịch"
+      }
+    },
+    "delete_confirmation": "Bạn có muốn xóa Tài khoản người bán không?",
+    "delete_confirmation_description": "Hành động này không thể được hoàn tác.",
+    "details": "Chi tiết người bán",
+    "discount_code": "",
+    "edit": "Chỉnh sửa người bán",
+    "edit_heading": "Chỉnh sửa người bán",
+    "email": "E-mail",
+    "email_prompt": "",
+    "first_name_prompt": "",
+    "heading": "Thương gia",
+    "last_name_prompt": "",
+    "list": "Danh sách thương gia",
+    "name": "Tên đầu tiên",
+    "no_seller": "Không có thương gia có sẵn",
+    "pass_prompt": "Nhập mật khẩu",
+    "pass_prompt_change": "",
+    "password": "Mật khẩu",
+    "phone": "Điện thoại",
+    "phone_prompt": "",
+    "pos": "POS",
+    "pos_prompt": "",
+    "posCity": "thành phố POS",
+    "posId": "ID POS",
+    "posName": "Tên POS",
+    "select_pos": "Chọn điểm bán hàng",
+    "select_seller": "Chọn người bán",
+    "surname": "Họ",
+    "transaction": {
+      "customer_loyalty_card_number_prompt": "Để số thẻ hoặc điền số điện thoại bên dưới",
+      "customer_phone_number_prompt": "Để điện thoại hoặc điền số thẻ phía trên",
+      "find": {
+        "document_number_prompt": "",
+        "heading": "Tìm giao dịch"
+      },
+      "heading": "Phù hợp với khách hàng với giao dịch",
+      "search_results": "Kết quả tìm kiếm",
+      "transaction_id_prompt": "Nhập số tài liệu"
+    }
+  },
+  "settings": {
+    "level_downgrade": {
+      "title": "Cài đặt hạ cấp",
+      "mode": "Cách thức",
+      "mode_prompt": "",
+      "days": "Hạ cấp mọi",
+      "days_prompt": "ngày",
+      "base": "Hạ cấp dựa trên",
+      "base_prompt": "",
+      "active_points": "điểm hoạt động",
+      "earned_points": "kiếm được điểm trong X ngày qua",
+      "earned_points_since_last_level_change": "điểm kiếm được kể từ lần thay đổi cấp độ cuối cùng",
+      "after_x_days": "mỗi x số ngày",
+      "none": "không có",
+      "automatic": "tự động",
+      "reset_points": "đặt lại điểm"
+    },
+    "allow_customers_profile_edits": "Cho phép người dùng chỉnh sửa hồ sơ của họ",
+    "allow_customers_profile_edits_prompt": "Cho phép",
+    "point_will_expire_after": "Phương pháp điểm hết hạn",
+    "at_the_end_of_the_year": "Vào cuối năm",
+    "after_x_days": "Sau X ngày",
+    "all_time_active": "Luôn hoạt động",
+    "all_time_not_locked_prompt": "",
+    "all_time_not_locked": "Điểm không bao giờ bị khóa",
+    "at_the_end_of_the_month": "Vào cuối tháng",
+    "accent_color": "Màu nhấn",
+    "accent_color_prompt": "Màu lục giác (",
+    "account_activation": "Kích hoạt tài khoản",
+    "account_activation_method": "Phương thức kích hoạt tài khoản",
+    "account_activation_method_prompt": "",
+    "add_identification_priority": "",
+    "big_logo": "Logo lớn",
+    "conditions_file": "Tệp điều kiện (PDF)",
+    "conditions_url": "URL điều kiện",
+    "count_points_immediately": "Tính điểm ngay lập tức",
+    "css_template": "mẫu css",
+    "css_template_prompt": "",
+    "currency": "Tiền tệ",
+    "currency_plural": "Tiền tệ số nhiều",
+    "currency_prompt": "",
+    "currency_singular": "Tiền tệ số ít",
+    "customerStatusesEarning_prompt": "",
+    "customerStatusesSpending_prompt": "",
+    "defaultTranslations": "Tệp dịch mặc định",
+    "defaultTranslations_prompt": "",
+    "enable_webhooks": "Bật webhook",
+    "exclude_delivery_costs": "Chi phí giao hàng",
+    "exclude_delivery_costs_prompt": "Chi phí giao hàng sẽ không được tích điểm.",
+    "excluded_level_skus": "SKU bị loại khỏi các cấp độ",
+    "excluded_skus": "SKU bị loại trừ của chi phí giao hàng",
+    "excluded_skus_prompt": "",
+    "excludes_level_skus_prompt": "",
+    "expire_coupons_notification_days": "Số ngày trước khi phiếu giảm giá hết hạn để thông báo cho người dùng",
+    "expire_coupons_notification_days_prompt": "[ngày]",
+    "expire_points_notification_days": "Ngày trước khi hết điểm để thông báo cho người dùng",
+    "expire_points_notification_days_prompt": "[ngày]",
+    "expire_levels_notification_days": "Vài ngày trước khi tính toán lại cấp độ để thông báo cho người dùng",
+    "expire_levels_notification_days_prompt": "[ngày]",
+    "faq_url": "URL câu hỏi thường gặp",
+    "field_prompt": "",
+    "fields": "Cánh đồng",
+    "heading": "Cài đặt",
+    "help_email": "Email trợ giúp",
+    "help_email_address_prompt": "",
+    "hero_image": "Hình ảnh anh hùng",
+    "identification_priority": "Giao dịch khớp với khách hàng",
+    "lang": "Ngôn ngữ",
+    "lang_prompt": "",
+    "logo": "Logo",
+    "marketing": "Công cụ tự động hóa tiếp thị",
+    "marketing_vendor": "Chọn tích hợp",
+    "marketing_vendor_prompt": "",
+    "points_days_active": "Điểm sẽ hết hạn sau",
+    "points_days_locked": "Điểm sẽ bị khóa trong",
+    "points_days_active_prompt": " [ngày]",
+    "points_days_locked_prompt": " [ngày]",
+    "points_plural": "Điểm số nhiều",
+    "points_singular": "Điểm số ít",
+    "priority": "Sự ưu tiên",
+    "priority_prompt": "",
+    "program_conditions_url_prompt": "",
+    "program_faq_url_prompt": "",
+    "program_logo": "Biểu tượng chương trình",
+    "program_name": "Tên chương trình",
+    "program_name_prompt": "",
+    "program_points_plural_prompt": "",
+    "program_points_singular_prompt": "",
+    "program_url": "URL chương trình",
+    "program_url_prompt": "",
+    "push_notification": "Dịch vụ thông báo đẩy",
+    "pushy_secret_key": "Khóa bí mật API Pushy",
+    "pushy_secret_key_prompt": "Nếu bạn muốn bật thông báo Pushy, hãy dán phím.",
+    "returns": "Trả lại",
+    "returns_prompt": "Cho phép trả lại hàng",
+    "sales_manago": {
+      "api_key": "Mã API",
+      "api_key_prompt": "",
+      "api_secret": "Bí mật API",
+      "api_secret_prompt": "",
+      "api_url": "URL API",
+      "api_url_prompt": "",
+      "customer_id": "ID khách hàng",
+      "customer_id_prompt": "",
+      "email": "E-mail",
+      "email_prompt": ""
+    },
+    "select_currency": "Chọn loại tiền tệ",
+    "select_lang": "Chọn ngôn ngữ",
+    "select_timezone": "Chọn múi giờ",
+    "small_logo": "Logo nhỏ",
+    "smsAccountId": "Id tài khoản",
+    "smsApiKey": "Mã API",
+    "smsApiToken": "Mã thông báo SmsApi",
+    "statuses": "Trạng thái kiếm tiền và chi tiêu của khách hàng",
+    "statuses_earning": "Trạng thái kiếm tiền của khách hàng",
+    "statuses_spending": "Trạng thái chi tiêu của khách hàng",
+    "template": "Bản mẫu",
+    "tier_assign_type": "Mức độ sẽ được tính toán bằng",
+    "tier_assign_type_prompt": "",
+    "timezone": "Múi giờ",
+    "timezone_prompt": "",
+    "title": "Cài đặt",
+    "uri_webhooks": "URI",
+    "uri_webhooks_prompt": "ví dụ. ",
+    "webhook_header_name": "Tên tiêu đề yêu cầu",
+    "webhook_header_name_prompt": "ví dụ. ",
+    "webhook_header_value": "Giá trị tiêu đề yêu cầu",
+    "webhook_header_value_prompt": "",
+    "webhooks": "Webhook"
+  },
+  "Ta wartość nie powinna być pusta.": "Giá trị này không được để trống",
+  "Ten plik nie jest obrazem.": "Tập tin này không phải là hình ảnh",
+  "transaction": {
+    "actions": "hành động",
+    "amount": "Số lượng",
+    "building_name": "Tên tòa nhà",
+    "category": "Loại",
+    "city": "Thành phố",
+    "country": "Quốc gia",
+    "customer_email": "E-mail",
+    "customer_email_or_phone": "Email hoặc điện thoại",
+    "customer_email_or_phone_prompt": "Tìm kiếm khách hàng qua email hoặc điện thoại",
+    "customer_email_prompt": "Tìm kiếm khách hàng qua email",
+    "customer_id": "ID khách hàng",
+    "customer_id_prompt": "Đặt ID duy nhất của khách hàng",
+    "customer_loyalty_card_number": "Số thẻ khách hàng thân thiết",
+    "customer_name": "Tên khách hàng",
+    "customer_phone_number": "Số điện thoại",
+    "details": "Chi tiết giao dịch",
+    "document_number": "Số văn bản",
+    "document_number_should_be_unique": "Số tài liệu phải là duy nhất",
+    "document_type": "Loại tài liệu",
+    "document_types": {
+      "both": "Cả hai",
+      "return": "Trở lại",
+      "sell": "Bán"
+    },
+    "edit_labels": "Chỉnh sửa nhãn giao dịch",
+    "email": "E-mail",
+    "gross": "Tổng giá trị",
+    "heading": "Giao dịch",
+    "id": "ID giao dịch",
+    "import": "Tải lên",
+    "import_title": "Giao dịch nhập khẩu",
+    "import_xml_field": "tập tin XML",
+    "item_details": "Mục chi tiết",
+    "labels": "Nhãn",
+    "link": "Phù hợp với khách hàng",
+    "link_modal": "Phù hợp với khách hàng với giao dịch",
+    "list": "Danh sách giao dịch",
+    "loyaltyCardNumber": "Số thẻ khách hàng thân thiết",
+    "maker": "Thương hiệu",
+    "name": "Tên",
+    "phone": "Điện thoại",
+    "points_earned": "Điểm kiếm được",
+    "points_revoked": "Điểm bị thu hồi",
+    "pos_name": "Tên POS",
+    "postal_code": "mã bưu điện",
+    "purchase_date": "Ngày mua",
+    "purchase_place": "POS",
+    "quantity": "Số lượng",
+    "revised_document": "Tài liệu sửa đổi",
+    "sku": "Mã hàng",
+    "state": "Tình trạng",
+    "street": "Đường phố",
+    "sum": "TỔNG",
+    "transaction_document_number": "Số văn bản",
+    "transaction_document_number_prompt": "Tìm giao dịch theo số tài liệu",
+    "transaction_id": "ID giao dịch",
+    "unit_name": "Tên căn hộ/căn hộ"
+  },
+  "transaction_labels": {
+    "add_label": "Thêm nhãn",
+    "key": "Chìa khóa",
+    "key_prompt": "",
+    "title": "Nhãn",
+    "value": "Giá trị",
+    "value_prompt": ""
+  },
+  "transfer": {
+    "actions": "hành động",
+    "add_points": "Ghi điểm",
+    "add_transfer": "Thêm chuyển khoản",
+    "comment": "Bình luận",
+    "created_at": "Được tạo vào lúc",
+    "customer_loyalty_card_number": "Số thẻ khách hàng thân thiết",
+    "delete_confirmation": "Xác nhận",
+    "delete_confirmation_description": "Bạn có muốn xóa chuyển khoản?",
+    "details": "Chi tiết",
+    "email": "E-mail",
+    "heading": "Chuyển điểm",
+    "import": "Tải lên",
+    "import_title": "Chuyển điểm nhập khẩu",
+    "import_xml_field": "tập tin XML",
+    "issuer": {
+      "admin": "quản trị viên",
+      "api": "API",
+      "seller": "thương gia",
+      "system": "hệ thống",
+      "title": "Tổ chức phát hành"
+    },
+    "list": "Danh sách chuyển điểm",
+    "name": "Tên đầu tiên",
+    "phone": "Điện thoại",
+    "points_to_add": "Điểm để thêm/chi tiêu",
+    "points_to_spend": "Điểm để chi tiêu",
+    "pos_identifier": "POS",
+    "revised_transaction": "Giao dịch sửa đổi",
+    "revised_transaction_id": "Id giao dịch đã sửa đổi",
+    "locked_until": "Điểm sẽ bị khóa cho đến khi",
+    "expires_at": "Hết hạn vào lúc",
+    "select_customer": "Chọn khách hàng",
+    "spend_points": "Tiêu điểm",
+    "state": "Tình trạng",
+    "surname": "Họ",
+    "transfer_points": "Chuyển điểm",
+    "transfer_type": "Kiểu chuyển",
+    "type": "Kiểu",
+    "value": "Giá trị"
+  },
+  "users": {
+    "roles": "Vai trò",
+    "roles_prompt": "",
+    "actions": "hành động",
+    "active": "Hoạt động",
+    "active_prompt": "",
+    "add": "Thêm vào",
+    "api_key": "Mã API",
+    "create": "Tạo người dùng",
+    "create_heading": "Thêm người dùng",
+    "edit": "Chỉnh sửa người dùng",
+    "edit_heading": "Người dùng biên tập",
+    "email": "E-mail",
+    "external": "Bên ngoài",
+    "first_name": "Tên",
+    "heading": "Người dùng",
+    "last_name": "Họ",
+    "list": "Danh sách người dùng",
+    "name": "Tên",
+    "password": "Mật khẩu",
+    "phone": "Điện thoại",
+    "surname": "Họ"
+  },
+  "xhr": {
+    "pos_coupon_usage": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Thành công"
+    },
+    "get_delivery_statuses": {
+      "error": "Lỗi",
+      "success": "Thành công"
+    },
+    "put_change_delivery_status": {
+      "error": "Lỗi",
+      "success": "Thành công"
+    },
+    "customer_buy": {
+      "error": "Lỗi",
+      "success": "Thành công"
+    },
+    "customer_search": {
+      "error": "Lỗi",
+      "nothing_found": "Không tìm thấy khách hàng nào",
+      "success": "Thành công",
+      "to_many_results": "Có nhiều kết quả, vui lòng cung cấp thêm một số dữ liệu"
+    },
+    "put_campaign_brand_icon": {
+      "error": "Lỗi máy chủ",
+      "success": "Đã thêm biểu tượng thương hiệu của chiến dịch khen thưởng",
+      "warning": "Chiến dịch được chỉnh sửa không có biểu tượng thương hiệu"
+    },
+    "put_campaign_image": {
+      "error": "Lỗi máy chủ",
+      "success": "Đã thêm ảnh chiến dịch phần thưởng",
+      "warning": "Chiến dịch được chỉnh sửa không có ảnh"
+    },
+    "delete_campaign_brand_icon": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Đã xóa hình ảnh"
+    },
+    "post_campaign_brand_icon": {
+      "error": "Lỗi máy chủ",
+      "success": "Đã thêm biểu tượng thương hiệu của chiến dịch khen thưởng",
+      "warning": "Chiến dịch được thêm vào mà không có biểu tượng thương hiệu"
+    },
+    "post_campaign_image": {
+      "error": "Lỗi máy chủ",
+      "success": "Đã thêm ảnh chiến dịch phần thưởng",
+      "warning": "Đã thêm chiến dịch mà không có ảnh"
+    },
+    "delete_campaign_image": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Đã xóa hình ảnh"
+    },
+    "delete_earning_rule_image": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Đã xóa hình ảnh"
+    },
+    "delete_level_image": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Đã xóa hình ảnh"
+    },
+    "delete_segment": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Đã xóa phân khúc"
+    },
+    "delete_settings_conditions_file": {
+      "error": "Tệp điều kiện chưa bị xóa",
+      "success": "Tệp điều kiện đã bị xóa"
+    },
+    "delete_settings_hero_image": {
+      "error": "Hình ảnh anh hùng chưa bị xóa",
+      "success": "Hình ảnh anh hùng đã bị xóa"
+    },
+    "delete_settings_logo": {
+      "error": "Logo chưa bị xóa",
+      "success": "Logo đã bị xóa"
+    },
+    "delete_settings_small_logo": {
+      "error": "Logo nhỏ chưa bị xóa",
+      "success": "Logo nhỏ đã bị xóa"
+    },
+    "delete_user": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Người dùng đã xóa"
+    },
+    "get_available_rewards": {
+      "error": "Chúng tôi không thể nhận được phần thưởng có sẵn"
+    },
+    "get_buy": {
+      "success": "Thành công"
+    },
+    "get_campaign": {
+      "error": "Đã xảy ra lỗi",
+      "no_id": "Không tìm thấy ID chiến dịch phần thưởng"
+    },
+    "get_campaigns": {
+      "error": "Không thể nhận được các chiến dịch phần thưởng"
+    },
+    "get_customer": {
+      "cant_edit": "Bạn không có quyền chỉnh sửa khách hàng đó",
+      "error": "Không thể có được khách hàng",
+      "no_id": "Không tìm thấy ID khách hàng"
+    },
+    "get_customers": {
+      "error": "Không lấy được danh sách khách hàng"
+    },
+    "get_customers_for_campaign": {
+      "error": "Đã xảy ra lỗi",
+      "no_id": "Không tìm thấy ID chiến dịch phần thưởng"
+    },
+    "get_earning_rule": {
+      "error": "Đã xảy ra lỗi",
+      "no_id": "Không tìm thấy ID quy tắc thu nhập"
+    },
+    "get_earning_rules": {
+      "error": "Không thể lấy danh sách quy tắc tích điểm"
+    },
+    "get_level": {
+      "error": "Không thể nhận được cấp độ được chỉ định"
+    },
+    "get_levels": {
+      "error": "Không thể có được cấp độ có sẵn"
+    },
+    "get_levels_list": {
+      "error": "Không thể lấy danh sách cấp độ"
+    },
+    "get_pos": {
+      "error": "Đã xảy ra lỗi",
+      "no_id": "Không tìm thấy ID POS"
+    },
+    "get_pos_list": {
+      "error": "Không thể lấy danh sách POS"
+    },
+    "get_redeemed_campaigns": {
+      "error": "Đã xảy ra lỗi"
+    },
+    "get_segment": {
+      "error": "Đã xảy ra lỗi",
+      "no_id": "Không tìm thấy ID phân khúc"
+    },
+    "get_segments": {
+      "error": "Không thể lấy danh sách phân khúc"
+    },
+    "get_seller": {
+      "error": "Đã xảy ra lỗi",
+      "no_id": "Không tìm thấy ID người bán"
+    },
+    "get_sellers": {
+      "error": "Không thể lấy danh sách người bán"
+    },
+    "get_settings": {
+      "error": "Không thể lấy dữ liệu cài đặt"
+    },
+    "get_single_level": {
+      "error": "Lỗi máy chủ",
+      "no_id": "Không tìm thấy ID cấp độ"
+    },
+    "get_transfers": {
+      "error": "Không thể lấy danh sách chuyển điểm"
+    },
+    "get_translation": {
+      "error": "Lỗi",
+      "no_id": "Không có khóa dịch được chỉ định"
+    },
+    "get_translations": {
+      "error": "Lỗi"
+    },
+    "delete_translations": {
+      "success": "Giao dịch đã bị xóa",
+      "error": "Giao dịch chưa bị xóa"
+    },
+    "import": {
+      "error": "Quá trình nhập không thành công",
+      "no_data": "Không có hồ sơ để xử lý",
+      "success": "Tất cả các mục đã được nhập thành công (Đã xử lý {{ processed }})",
+      "warning": "Các mục đã được nhập có một số lỗi (Đã xử lý {{ processed }}, Thành công {{ success }}, Thất bại  {{ failed }})"
+    },
+    "post_activate_customer": {
+      "error": "Lỗi",
+      "success": "Thành công."
+    },
+    "post_activate_level": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Trạng thái cấp độ đã thay đổi"
+    },
+    "post_activate_rule": {
+      "error": "Lỗi máy chủ",
+      "success": "Trạng thái đã thay đổi"
+    },
+    "post_activate_segment": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Đã kích hoạt phân khúc"
+    },
+    "post_activate_seller": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Đã kích hoạt người bán"
+    },
+    "post_add_transfer": {
+      "error": "Lỗi máy chủ",
+      "success": "Bạn đã thêm điểm thành công."
+    },
+    "post_campaign": {
+      "error": "Lỗi máy chủ",
+      "success": "Đã thêm chiến dịch phần thưởng",
+      "warning": "Đã thêm chiến dịch mà không có ảnh"
+    },
+    "post_campaign_buy_manually_assign": {
+      "success": "Campaing đã được mua thành công",
+      "error_occurred": "Xảy ra lỗi",
+      "error": "Lỗi khi mua chiến dịch cho khách hàng"
+    },
+    "post_cancel_transfer": {
+      "error": "Lỗi máy chủ",
+      "success": "Đã hủy chuyển khoản."
+    },
+    "post_customer": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Bạn đã thêm khách hàng thành công."
+    },
+    "post_deactivate_customer": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Bạn đã hủy kích hoạt thành công khách hàng"
+    },
+    "post_deactivate_segment": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Phân đoạn đã bị vô hiệu hóa"
+    },
+    "post_deactivate_seller": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Người bán đã bị vô hiệu hóa"
+    },
+    "post_delete_seller": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Người bán đã bị xóa"
+    },
+    "post_earning_rule": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Đã thêm quy tắc tích điểm",
+      "warning": "Quy tắc kiếm tiền được thêm mà không có ảnh"
+    },
+    "post_level": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Bạn đã chỉ định thành công cấp độ cho khách hàng"
+    },
+    "post_password_change": {
+      "error": "Lỗi",
+      "success": "Thành công"
+    },
+    "post_password_request": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Nếu người dùng tồn tại trong cơ sở dữ liệu của chúng tôi, chúng tôi sẽ gửi hướng dẫn tiếp theo đến địa chỉ email được kết nối"
+    },
+    "post_password_reset": {
+      "error": "Xảy ra lỗi",
+      "success": "Mật khẩu đã được thay đổi."
+    },
+    "post_pos": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Đã thêm điểm bán hàng"
+    },
+    "post_role": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Vai trò đã được thêm vào"
+    },
+    "put_role": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Vai trò đã được chỉnh sửa"
+    },
+    "post_registration_customer": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Quý khách đã đăng ký thành công"
+    },
+    "post_delete_role": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Đã xóa vai trò"
+    },
+    "post_registration_customer_activate": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Bạn đã kích hoạt thành công tài khoản của mình"
+    },
+    "post_remove_customer_manually_level": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Cấp độ thủ công đã bị xóa"
+    },
+    "post_resend_activation_code": {
+      "success": "Mã đã được gửi tới điện thoại khách hàng"
+    },
+    "post_resend_customer_code": {
+      "error": "Không thể gửi lại mã kích hoạt. ",
+      "success": "Mã đã được gửi tới điện thoại của bạn"
+    },
+    "post_segment": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Đã thêm phân khúc"
+    },
+    "post_seller": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Đã thêm người bán"
+    },
+    "post_single_level": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Bạn đã thêm cấp độ thành công.",
+      "warning": "Đã thêm cấp độ không có ảnh"
+    },
+    "post_spend_transfer": {
+      "error": "Lỗi máy chủ",
+      "success": "Bạn tiêu điểm thành công."
+    },
+    "post_transaction_assign": {
+      "error": "Đã xảy ra lỗi trong khi. ",
+      "success": "Giao dịch đã được gán vào tài khoản Khách hàng."
+    },
+    "post_transaction_labels": {
+      "error": "Đã xảy ra lỗi trong khi. ",
+      "success": "Nhãn đã được chỉnh sửa."
+    },
+    "post_translations": {
+      "error": "Lỗi",
+      "success": "Thành công"
+    },
+    "post_user": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Người dùng đã tạo"
+    },
+    "put_admin_data": {
+      "error": "Lỗi",
+      "success": "Thành công"
+    },
+    "put_campaign": {
+      "error": "Lỗi máy chủ",
+      "success": "Đã chỉnh sửa chiến dịch phần thưởng"
+    },
+    "put_customer": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Bạn đã chỉnh sửa thành công khách hàng."
+    },
+    "put_earning_rule": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Bạn đã chỉnh sửa thành công quy tắc kiếm tiền.",
+      "warning": "Không thể tải lên hình ảnh của quy tắc tích điểm"
+    },
+    "put_pos": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Bạn đã chỉnh sửa POS thành công."
+    },
+    "put_segment": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Bạn đã chỉnh sửa thành công phân đoạn."
+    },
+    "put_seller": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Bạn đã chỉnh sửa thành công người bán."
+    },
+    "put_settings": {
+      "error": "Lỗi máy chủ",
+      "success": "Cài đặt đã cập nhật"
+    },
+    "put_single_level": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Bạn đã chỉnh sửa cấp độ thành công.",
+      "warning": "Đã chỉnh sửa cấp độ không có ảnh"
+    },
+    "put_translations": {
+      "error": "Lỗi",
+      "success": "Thành công"
+    },
+    "put_user": {
+      "error": "Đã xảy ra lỗi",
+      "success": "Người dùng đã chỉnh sửa"
+    },
+    "upload_settings_conditions_file": {
+      "error": "Tệp điều kiện chưa được lưu",
+      "success": "Tệp điều kiện đã được lưu"
+    },
+    "upload_settings_hero_image": {
+      "error": "Hình ảnh anh hùng chưa được lưu",
+      "success": "Hình ảnh anh hùng đã được lưu"
+    },
+    "upload_settings_logo": {
+      "error": "Logo chưa được lưu",
+      "success": "Logo đã được lưu"
+    },
+    "upload_settings_small_logo": {
+      "error": "Logo nhỏ chưa được lưu",
+      "success": "Logo nhỏ đã được lưu"
+    },
+    "post_campaign_category": {
+      "error": "Danh mục chiến dịch chưa được lưu",
+      "success": "Danh mục chiến dịch đã được lưu"
+    },
+    "put_campaign_category": {
+      "error": "Danh mục chiến dịch chưa được lưu",
+      "success": "Danh mục chiến dịch đã được lưu"
+    },
+    "post_activate_campaign": {
+      "error": "Chiến dịch chưa được lưu",
+      "success": "Chiến dịch đã được lưu"
+    },
+    "post_activate_campaign_category": {
+      "error": "Danh mục chiến dịch chưa được lưu",
+      "success": "Danh mục chiến dịch đã được lưu"
+    }
+  },
+  "Your password must be at least 8 characters long.": "Mật khẩu của bạn phải dài ít nhất 8 ký tự",
+  "Your password must contain at least one special character.": "Mật khẩu của bạn phải chứa ít nhất một ký tự đặc biệt",
+  "Your password must include at least one letter.": "Mật khẩu của bạn phải bao gồm ít nhất một chữ cái",
+  "Your password must include at least one number.": "Mật khẩu của bạn phải bao gồm ít nhất một số",
+  "Your password must include both upper and lower case letters.": "Mật khẩu của bạn phải bao gồm cả chữ hoa và chữ thường"
+}

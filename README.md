@@ -2,9 +2,9 @@
 
 # Open Loyalty
 
-Wrap framework here www.github.com/dataworksbi/open-loyalty
+Fork framework here www.github.com/dataworksbi/open-loyalty
 
-Framework here www.github.com/dataworksbi/open-loyalty-framework
+Code Framework here www.github.com/TDFS-Dom/open-loyalty-framework
 
 Open Loyalty is a headless loyalty technology for visionaries and innovators who want to implement an effective loyalty program that cuts across multiple touchpoints. Our solution is 100% API-first and unlike old-fashioned, monolithic software, it’s easy to integrate with and ensures complete flexibility, speed, and effectiveness at all levels. 
 

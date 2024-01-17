@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/DivanteLtd/open-loyalty.svg?branch=master)](https://travis-ci.org/DivanteLtd/open-loyalty)
 
 # Open Loyalty
+[![Wrap framework](https://travis-ci.org/DivanteLtd/open-loyalty.svg?branch=master)](https://github.com/dataworksbi/open-loyalty)
+[![Framework](https://travis-ci.org/DivanteLtd/open-loyalty.svg?branch=master)](https://github.com/dataworksbi/open-loyalty-framework)
 
 Open Loyalty is a headless loyalty technology for visionaries and innovators who want to implement an effective loyalty program that cuts across multiple touchpoints. Our solution is 100% API-first and unlike old-fashioned, monolithic software, it’s easy to integrate with and ensures complete flexibility, speed, and effectiveness at all levels. 
 

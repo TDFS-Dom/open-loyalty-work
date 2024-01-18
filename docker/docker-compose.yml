@@ -3,6 +3,9 @@ version: "2"
 services:
   php:
     container_name: open_loyalty_backend
+    cpus: "2"
+    mem_reservation: "100M"
+    mem_limit: "2G"
     build:
       context: '../'
       dockerfile: './docker/dev/php/fpm-dockerfile'
@@ -20,6 +23,9 @@ services:
         - .env
   nginx:
     container_name: open_loyalty_frontend
+    cpus: "0.5"
+    mem_reservation: "10M"
+    mem_limit: "250M"
     build:
       context: '../'
       dockerfile: './docker/dev/web/backend-dockerfile'
@@ -30,6 +36,9 @@ services:
       - "8888:80"
   frontend:
     container_name: open_loyalty_frontend_dev
+    cpus: "2"
+    mem_reservation: "50M"
+    mem_limit: "1G"
     build:
       context: '../'
       dockerfile: './docker/dev/web/front-dockerfile'
@@ -45,6 +54,20 @@ services:
       context: '../'
       dockerfile: './docker/base/elasticsearch-dockerfile'
     restart: always
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536
+        hard: 65536
+    environment:
+      - "bootstrap.memory_lock=true"
+      - "discovery.type=single-node"
+      - "xpack.security.enabled=false"
+      - "ingest.geoip.downloader.enabled=false"
+      - "ES_JAVA_OPTS=-Xms2g -Xmx2g"
+    mem_limit: 4g
     volumes:
       - ./dev/elk/data/:/usr/share/elasticsearch/data/
       - ./dev/elk/plugins/:/usr/share/elasticsearch/plugins/
@@ -52,6 +75,9 @@ services:
       - "9200:9200"
   db:
     container_name: open_loyalty_db
+    cpus: "0.5"
+    mem_reservation: "10M"
+    mem_limit: "250M"
     image: postgres:9
     volumes:
       - ./dev/postgres/data:/var/lib/postgresql/data
@@ -62,6 +88,9 @@ services:
         - .env
   mail:
     container_name: open_loyalty_mail
+    cpus: "0.5"
+    mem_reservation: "10M"
+    mem_limit: "250M"
     image: mailhog/mailhog
     restart: always
     ports:

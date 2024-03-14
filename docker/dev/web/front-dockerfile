@@ -7,4 +7,4 @@ RUN cd $(npm root -g)/npm \
 
 EXPOSE 3000
 USER node
-CMD yarn install && npm start
+CMD yarn install --registry=https://registry.yarnpkg.com/ && npm start

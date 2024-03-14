@@ -81,7 +81,7 @@
     "angular-ui-router": "^0.3.1",
     "autoprefixer": "^6.3.7",
     "brace": "^0.10.0",
-    "chart.js": "^2.2.2",
+    "chart.js": "file:./chart-master",
     "copy-webpack-plugin": "^4.2.0",
     "font-awesome": "^4.6.3",
     "foundation": "^4.2.1-1",

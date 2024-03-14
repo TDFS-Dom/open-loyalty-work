@@ -59,10 +59,8 @@ access-sniff@^3.0.1:
     unixify "^0.2.1"
     validator "^5.0.0"
 
-ace-angular@^0.1.1:
+"ace-angular@file:./ace-angular-master":
   version "0.1.1"
-  resolved "https://registry.yarnpkg.com/ace-angular/-/ace-angular-0.1.1.tgz#d11496093fbf10456fd36ac6ffeeea5121855a9e"
-  integrity sha1-0RSWCT+/EEVv02rG/+7qUSGFWp4=
 
 acorn-dynamic-import@^2.0.0:
   version "2.0.2"
@@ -1614,13 +1612,11 @@ chart.js@2.3.x:
     chartjs-color "^2.0.0"
     moment "^2.10.6"
 
-chart.js@^2.2.2:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/chart.js/-/chart.js-2.7.0.tgz#330dbbee0c66199eb715f60fbf8ca4029609a529"
-  integrity sha1-Mw277gxmGZ63FfYPv4ykApYJpSk=
+"chart.js@file:./chart-master":
+  version "2.3.0"
   dependencies:
-    chartjs-color "~2.2.0"
-    moment "~2.18.0"
+    chartjs-color "^2.0.0"
+    moment "^2.10.6"
 
 chartjs-color-string@^0.5.0:
   version "0.5.0"
@@ -1629,7 +1625,7 @@ chartjs-color-string@^0.5.0:
   dependencies:
     color-name "^1.0.0"
 
-chartjs-color@^2.0.0, chartjs-color@~2.2.0:
+chartjs-color@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/chartjs-color/-/chartjs-color-2.2.0.tgz#84a2fb755787ed85c39dd6dd8c7b1d88429baeae"
   integrity sha1-hKL7dVeH7YXDndbdjHsdiEKbrq4=
@@ -5676,7 +5672,7 @@ module-deps@^4.0.8:
     through2 "^2.0.0"
     xtend "^4.0.0"
 
-"moment@>=2.8.0 <3.0.0", moment@^2.10.6, moment@^2.14.1, moment@~2.18.0:
+"moment@>=2.8.0 <3.0.0", moment@^2.10.6, moment@^2.14.1:
   version "2.18.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.18.1.tgz#c36193dd3ce1c2eed2adb7c802dbbc77a81b1c0f"
   integrity sha1-w2GT3Tzhwu7SrbfIAtu8d6gbHA8=

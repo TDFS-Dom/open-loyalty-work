@@ -1,5 +1,5 @@
 # Stage 1: Ruby installation
-FROM ruby:2.3.3 AS ruby
+FROM ruby:2.5 AS ruby
 RUN gem install sass
 
 # Stage 2: Node.js installation

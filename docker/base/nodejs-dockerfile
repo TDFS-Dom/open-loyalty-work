@@ -1,2 +1,8 @@
-FROM ruby:2.3.3
+# Stage 1: Ruby installation
+FROM ruby:2.3.3 AS ruby
 RUN gem install sass
+
+# Stage 2: Node.js installation
+FROM node:8.17.0
+COPY --from=ruby /usr/local/bundle/ /usr/local/bundle/
+RUN npm install --unsafe-perm -g gulp node-sass

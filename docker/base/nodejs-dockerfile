@@ -1,10 +1,10 @@
 FROM node:8.17.0
 
-RUN apt-get update && \
-    apt-get install -y curl gnupg build-essential && \
-    curl -sSL https://get.rvm.io | bash -s stable && \
-    /bin/bash -l -c "rvm requirements" && \
-    /bin/bash -l -c "rvm install 2.7" && \
-    /bin/bash -l -c "gem install sass"
+RUN sed -i s/deb.debian.org/archive.debian.org/g /etc/apt/sources.list
+RUN sed -i s/security.debian.org/archive.debian.org/g /etc/apt/sources.list
+RUN sed -i s/stretch-updates/stretch/g /etc/apt/sources.list
 
+RUN apt-get update && apt-get install -y ruby-full rubygems \
+ && gem install sass
+    
 RUN npm install --unsafe-perm -g gulp node-sass

@@ -6,8 +6,6 @@ RUN sed -i s/stretch-updates/stretch/g /etc/apt/sources.list
 
 RUN apt-get update
 
-RUN sed -i '2 s/^/# /' /etc/apt/sources.list
-
 RUN apt-get install -y ruby-full rubygems
 RUN gem instal sass
 RUN npm install --unsafe-perm -g gulp node-sass

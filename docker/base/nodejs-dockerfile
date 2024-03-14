@@ -1,8 +1,10 @@
-# Stage 1: Ruby installation
-FROM ruby:2.3.3 AS ruby
-RUN gem install sass
-
-# Stage 2: Node.js installation
+# Based on Official Node.js Docker image
 FROM node:8.17.0
-COPY --from=ruby /usr/local/bundle/ /usr/local/bundle/
+
+RUN echo 'deb http://deb.debian.org/debian stretch main' > /etc/apt/sources.list
+# Install `sassc` gem
+RUN apt-get update -qq && apt-get install -y build-essential ruby ruby-dev
+RUN gem install sassc
+
+# Install gulp and node-sass globally
 RUN npm install --unsafe-perm -g gulp node-sass

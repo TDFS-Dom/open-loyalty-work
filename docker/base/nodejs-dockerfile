@@ -1,7 +1,5 @@
 # Based on Official Node.js Docker image
 FROM node:8.17.0
-
-RUN echo 'deb http://deb.debian.org/debian stretch main' > /etc/apt/sources.list
 # Install `sassc` gem
 RUN apt-get update -qq && apt-get install -y build-essential ruby ruby-dev
 RUN gem install sassc

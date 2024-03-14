@@ -1,0 +1,28 @@
+{
+  "name": "ace-angular",
+  "version": "0.1.1",
+  "description": "Module to use ace editor in angular js",
+  "main": "ace-angular.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayralencar/ace-angular.git"
+  },
+  "keywords": [
+    "ace",
+    "editor",
+    "angular"
+  ],
+  "author": "Jayr Alencar (www.jayralencar.com.br)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jayralencar/ace-angular/issues"
+  },
+  "homepage": "https://github.com/jayralencar/ace-angular#readme",
+  "devDependencies":{
+    "ace-builds":"latest",
+    "angular":"latest"
+  }
+}

@@ -1,8 +1,8 @@
-# Based on Official Node.js Docker image
 FROM node:8.17.0
-# Install `sassc` gem
-RUN apt-get update -qq && apt-get install -y build-essential ruby ruby-dev
-RUN gem install sassc
 
-# Install gulp and node-sass globally
+RUN echo "nameserver 8.8.8.8" > /etc/resolv.conf \
+    && apt-get update \
+    && apt-get install -y ruby-full rubygems \
+    && gem instal sass
+    
 RUN npm install --unsafe-perm -g gulp node-sass

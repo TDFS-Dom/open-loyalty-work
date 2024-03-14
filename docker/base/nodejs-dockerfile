@@ -1,7 +1,6 @@
 FROM node:8.17.0
 
-RUN echo "nameserver 8.8.8.8" > /etc/resolv.conf \
-    && apt-get update \
+RUN apt-get update \
     && apt-get install -y ruby-full rubygems \
     && gem instal sass
     

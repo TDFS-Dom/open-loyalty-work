@@ -1,7 +1,12 @@
 FROM node:8.17.0
 
-RUN apt-get update \
-    && apt-get install -y ruby-full rubygems \
-    && gem instal sass
+RUN apt-get update && \
+    apt-get install -y curl gnupg build-essential && \
+    curl -sSL https://get.rvm.io | bash -s stable && \
+    /bin/bash -l -c "rvm requirements" && \
+    /bin/bash -l -c "rvm install 2.7" && \
+    /bin/bash -l -c "gem install sass"
+
+RUN npm install --unsafe-perm -g gulp node-sass
     
 RUN npm install --unsafe-perm -g gulp node-sass

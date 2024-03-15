@@ -22,7 +22,7 @@ services:
     env_file:
         - .env
     networks:
-      - open_loyalty
+      - open-loyalty-networks
   nginx:
     container_name: open_loyalty_frontend
     cpus: "0.5"
@@ -37,7 +37,7 @@ services:
     ports:
       - "8888:80"
     networks:
-      - open_loyalty
+      - open-loyalty-networks
   frontend:
     container_name: open_loyalty_frontend_dev
     cpus: "2"
@@ -53,7 +53,7 @@ services:
       - '../frontend/:/var/www/frontend'
       - './dev/web/config.js:/var/www/frontend/src/config.js'
     networks:
-      - open_loyalty
+      - open-loyalty-networks
   elk:
     container_name: open_loyalty_elk
     build:
@@ -80,7 +80,7 @@ services:
     ports:
       - "9200:9200"
     networks:
-      - open_loyalty
+      - open-loyalty-networks
   db:
     container_name: open_loyalty_db
     cpus: "0.5"
@@ -95,7 +95,7 @@ services:
     env_file:
         - .env
     networks:
-      - open_loyalty
+      - open-loyalty-networks
   mail:
     container_name: open_loyalty_mail
     cpus: "0.5"
@@ -106,6 +106,7 @@ services:
     ports:
       - "8186:8025"
     networks:
-      - open_loyalty
+      - open-loyalty-networks
 networks:
-    open_loyalty:
+  open-loyalty-networks:
+    driver: bridge

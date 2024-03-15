@@ -21,6 +21,8 @@ services:
     # command: phing setup
     env_file:
         - .env
+    networks:
+          - dockernet
   nginx:
     container_name: open_loyalty_frontend
     cpus: "0.5"
@@ -34,6 +36,8 @@ services:
       - php
     ports:
       - "8888:80"
+    networks:
+          - dockernet
   frontend:
     container_name: open_loyalty_frontend_dev
     cpus: "2"
@@ -48,6 +52,8 @@ services:
     volumes:
       - '../frontend/:/var/www/frontend'
       - './dev/web/config.js:/var/www/frontend/src/config.js'
+    networks:
+          - dockernet
   elk:
     container_name: open_loyalty_elk
     build:
@@ -73,6 +79,8 @@ services:
       - ./dev/elk/plugins/:/usr/share/elasticsearch/plugins/
     ports:
       - "9200:9200"
+    networks:
+          - dockernet
   db:
     container_name: open_loyalty_db
     cpus: "0.5"
@@ -86,6 +94,8 @@ services:
     restart: always
     env_file:
         - .env
+    networks:
+          - dockernet
   mail:
     container_name: open_loyalty_mail
     cpus: "0.5"
@@ -95,3 +105,12 @@ services:
     restart: always
     ports:
       - "8186:8025"
+    networks:
+          - dockernet
+networks:
+    dockernet:
+        driver: 
+        ipam:
+            config:
+            - subnet: 192.168.0.0/24
+              gateway: 192.168.0.1
